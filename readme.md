@@ -46,7 +46,7 @@ params:
 ### CDN
 
 ```
-cdnkey: 
+keycdn: 
 ```
 
 ### Cookie banner
