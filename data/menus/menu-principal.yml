@@ -1,2 +1,6 @@
---- []
+---
+- title: Diplomes
+  target: "/diplomes/"
+  kind: diplomas
+  children: []
 
