@@ -3,4 +3,12 @@
   target: "/diplomes/"
   kind: diplomas
   children: []
+- title: Actus
+  target: "/offre-de-formation/"
+  kind: programs
+  children: []
+- title: Une actu
+  target: "/actualites/2021/11/09/post-de-test/"
+  kind: post
+  children: []
 
