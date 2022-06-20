@@ -1,4 +1,5 @@
 posts:          /actualites/:year/:month/:day/:slug/
 categories:     /actualites/:slug/
 persons:        /equipe/:slug/
+organizations:  /organisations/:slug/
 authors:        /equipe/:slug/actualites/
