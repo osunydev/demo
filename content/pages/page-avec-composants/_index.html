@@ -117,34 +117,17 @@ blocks:
         
 
 
-  - template: definitions
+  - template: embed
     title: >-
-      Un bloc définitions
+      Un bloc embed
     position: 4
     data:
-      elements:
-        - title: >-
-            Une def remplie 1
+      code: >-
+        <span class="color: red;">un texte en rouge normalement</span>
 
 
-          description: >-
-            Texte def remplie 1
-
-
-        - title: >-
-            Une def remplie 2
-
-
-          description: >-
-            Texte def remplie 2
-
-
-        - title: >-
-            
-
-
-          description: >-
-            
+      transcription: >-
+        Une transcription du texte en rouge normalement
 
 
   - template: files
@@ -165,23 +148,10 @@ blocks:
             Titre du fichier
 
 
-  - template: embed
-    title: >-
-      Un bloc embed
-    position: 6
-    data:
-      code: >-
-        <span class="color: red;">un texte en rouge normalement</span>
-
-
-      transcription: >-
-        Une transcription du texte en rouge normalement
-
-
   - template: gallery
     title: >-
       Un bloc galerie
-    position: 7
+    position: 6
     data:
       description: >-
         
@@ -220,6 +190,36 @@ blocks:
 
           text: >-
             Du texte image de gal 2
+
+
+  - template: definitions
+    title: >-
+      Un bloc définitions
+    position: 7
+    data:
+      elements:
+        - title: >-
+            Une def remplie 1
+
+
+          description: >-
+            Texte def remplie 1
+
+
+        - title: >-
+            Une def remplie 2
+
+
+          description: >-
+            Texte def remplie 2
+
+
+        - title: >-
+            
+
+
+          description: >-
+            
 
 
   - template: image
