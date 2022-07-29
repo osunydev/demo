@@ -4,6 +4,6 @@ size: 46317
 width: 200
 height: 200
 ratio: 1.0
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsWkRKa1ltUXlNUzB6WkRVeUxUUTVaamN0T0dZMVlTMWpOelF3TVRrM01ETTJOR1VHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--bb8d0e212388f726b63a9d2e6c4fb2e1ec9f3179/avatar.png
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/3aans8mewhfwtglj2vuabqbhggmx?response-content-disposition=inline%3B+filename%3D%22avatar.png%22%3B+filename*%3DUTF-8%27%27avatar.png&response-content-type=image%2Fpng
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsWkRKa1ltUXlNUzB6WkRVeUxUUTVaamN0T0dZMVlTMWpOelF3TVRrM01ETTJOR1VHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--5da2439521d611184ee8d7e65973bf2cee6ced6b/avatar.png
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/3aans8mewhfwtglj2vuabqbhggmx?response-content-disposition=inline%3B+filename%3D%22avatar.png%22%3B+filename*%3DUTF-8%27%27avatar.png&response-content-type=image%2Fpng
 

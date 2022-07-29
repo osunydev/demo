@@ -4,7 +4,13 @@ title: >
 breadcrumb_title: "Page avec composants"
 url: "/page-avec-composants/"
 position: 7
+full_width: false
 bodyclass: 
+image:
+  id: "9597df8d-78b0-4368-9964-35dad44bf4a7"
+  alt: "landscape photography of antelope canyon"
+  credit: >
+    Photo by <a href="https://unsplash.com/@terences?utm_source=osuny&amp;utm_medium=referral"> Terence Starkey</a> on <a href="https://unsplash.com/?utm_source=osuny&amp;utm_medium=referral">Unsplash</a>
 
 description: >
   
@@ -21,49 +27,51 @@ blocks:
     position: 1
     data:
       text: >-
-          text: >-
-            <p>Lorem ipsum cta</p>
+        <p>Lorem ipsum cta</p>
 
-      - id: "2a8c2241-04c5-4ff3-aa0b-a1240155f1f4"
+
+      image:
+        id: "2a8c2241-04c5-4ff3-aa0b-a1240155f1f4"
         file: "2a8c2241-04c5-4ff3-aa0b-a1240155f1f4"
 
 
-        alt: >-
-          Description image
+      alt: >-
+        Description image
 
 
-        credit: >-
-          <p>Crédit image</p>
+      credit: >-
+        <p>Crédit image</p>
 
-      buttons: >-
+
+      buttons:
         - title: >-
-          Bouton 1
+            Bouton 1
 
 
           url: >-
-          #1
+            #1
 
 
           target_blank: false
 
 
         - title: >-
-          Bouton 2
+            Bouton 2
 
 
           url: >-
-          #2
+            #2
 
 
           target_blank: true
 
 
         - title: >-
-          Bouton 3
+            Bouton 3
 
 
           url: >-
-          #3
+            #3
 
 
           target_blank: false
@@ -77,20 +85,23 @@ blocks:
       text: >-
         <p>  Lorem ipsum 2  <br></p>
 
+
       notes: >-
         <p>NB : des notes ici</p>
+
 
       image:
         id: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
         file: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
 
 
-        alt: >-
-          un test de l'image
+      alt: >-
+        un test de l'image
 
 
-        credit: >-
-          <p>crédit de l'image</p>
+      credit: >-
+        <p>crédit de l'image</p>
+
 
   - template: datatable
     title: >-
@@ -98,38 +109,43 @@ blocks:
     position: 3
     data:
 
-      columns: 
+      columns: [""]
 
 
       rows:
       caption: >-
         
 
+
   - template: definitions
     title: >-
       Un bloc définitions
     position: 4
     data:
-      - title: >-
-          Une def remplie 1
+      elements:
+        - title: >-
+            Une def remplie 1
 
 
-        description: >-
-          Texte def remplie 1
-
-      - title: >-
-          Une def remplie 2
+          description: >-
+            Texte def remplie 1
 
 
-        description: >-
-          Texte def remplie 2
-
-      - title: >-
-          
+        - title: >-
+            Une def remplie 2
 
 
-        description: >-
-          
+          description: >-
+            Texte def remplie 2
+
+
+        - title: >-
+            
+
+
+          description: >-
+            
+
 
   - template: embed
     title: >-
@@ -137,10 +153,12 @@ blocks:
     position: 5
     data:
       code: >-
-        un texte en rouge normalement
+        <span class="color: red;">un texte en rouge normalement</span>
+
 
       transcription: >-
         Une transcription du texte en rouge normalement
+
 
   - template: files
     title: >-
@@ -149,6 +167,7 @@ blocks:
     data:
       description: >-
         
+
 
       files:
         - id: "663460cc-d0c9-42e0-8926-c21101375db2"
@@ -167,6 +186,7 @@ blocks:
       description: >-
         
 
+
       layout: grid
 
       images:
@@ -181,8 +201,10 @@ blocks:
           credit: >-
             <p>crédit 1 gal</p>
 
+
           text: >-
             Du texte image de gal 1
+
 
         - id: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
           file: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
@@ -195,8 +217,10 @@ blocks:
           credit: >-
             <p>crédit 2 gal</p>
 
+
           text: >-
             Du texte image de gal 2
+
 
   - template: image
     title: >-
@@ -205,6 +229,7 @@ blocks:
     data:
       text: >-
         Lorem ipsum bloc image
+
 
       image:
         id: "dfd1162d-e3d0-43b0-a7ff-6d3c5749dc2b"
@@ -218,11 +243,16 @@ blocks:
         credit: >-
           <p>Crédit de l'image</p>
 
+
   - template: key_figures
     title: >-
       Bloc key figure
     position: 9
     data:
+      description: >-
+        
+
+
       figures:
         - number: 800
 
@@ -233,6 +263,7 @@ blocks:
           description: >-
             après JC sacre de charlemagne
 
+
         - number: 0
 
           unit: >-
@@ -242,6 +273,7 @@ blocks:
           description: >-
             
 
+
   - template: organization_chart
     title: >-
       Bloc organigramme
@@ -250,16 +282,18 @@ blocks:
       description: >-
         
 
-        - id: b5c39702-caa7-482d-8679-56ecf0f721c3
 
+      with_link: false
 
+      with_photo: false
+
+      persons:
+        - slug: "pierre-andre-boissinot"
           role: >-
             Un rôle rempli
 
 
-        - id: ff731be6-6b2e-4e0a-8abc-823f3da577cf
-
-
+        - slug: "sebastien-moulene"
           role: >-
             
 
@@ -271,6 +305,7 @@ blocks:
     data:
       description: >-
         
+
 
       partners:
         - slug: "organisation-test"
@@ -289,9 +324,9 @@ blocks:
     position: 12
     data:
       page: accueil/
-      show_main_description: 
-      show_descriptions: 
-      show_images: 
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
       layout: cards
       pages:
         - page: /actualites/
@@ -306,6 +341,8 @@ blocks:
     position: 13
     data:
       posts:
+        - "2022/2022-07-22-une-autre-actualite"
+        - "2022/2022-07-22-post-recent"
         - "2021/2021-11-09-post-de-test"
   - template: testimonials
     title: >-
@@ -313,47 +350,47 @@ blocks:
     position: 14
     data:
       testimonials:
-      text: >-
-        Un témoignage ici
-
-        author: >-
-          Autrice
+        - text: >-
+            Un témoignage ici
 
 
-        job: >-
-          Métier de l'autrice
+          author: >-
+            Autrice
 
 
-        photo:
-          id: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
-          file: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
+          job: >-
+            Métier de l'autrice
+
+
+          photo:
+            id: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
+            file: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
+
+
+        - text: >-
+            Un 2e témoignage ici
+
+
+          author: >-
+            auteur sans photo
+
+
+          job: >-
+            métier auteur
 
 
 
-      text: >-
-        Un 2e témoignage ici
 
-        author: >-
-          auteur sans photo
+        - text: >-
+            
 
 
-        job: >-
-          métier auteur
+          author: >-
+            
 
 
-
-
-
-      text: >-
-        
-
-        author: >-
-          
-
-
-        job: >-
-          
-
+          job: >-
+            
 
 
 
@@ -363,26 +400,32 @@ blocks:
       Bloc frise chronologique
     position: 15
     data:
-        title: >-
-          800 - charlemagne empereur
+      layout: vertical
+
+      events:
+        - title: >-
+            800 - charlemagne empereur
 
 
-        text: >-
-          Une description parce que c'est important
-
-        title: >-
-          Juste un titre
+          text: >-
+            Une description parce que c'est important 
 
 
-        text: >-
-          un événement sans date
-
-        title: >-
-          
+        - title: >-
+            Juste un titre
 
 
-        text: >-
-          
+          text: >-
+            un événement sans date
+
+
+        - title: >-
+            
+
+
+          text: >-
+            
+
 
   - template: video
     title: >-
@@ -399,6 +442,7 @@ blocks:
 
       transcription: >-
         Une description textuelle ici
+
 
   - template: posts
     title: >-
@@ -427,6 +471,20 @@ blocks:
       pages:
         - page: /equipe/equipe-editoriale/
           slug: /equipe/equipe-editoriale/
+        - page: /equipe/equipe-administrative/
+          slug: /equipe/equipe-administrative/
+        - page: /equipe/equipe-de-recherche/
+          slug: /equipe/equipe-de-recherche/
+        - page: /equipe/equipe-pedagogique/
+          slug: /equipe/equipe-pedagogique/
+  - template: programs
+    title: >-
+      
+    position: 20
+    data:
+      programs:
+        - slug: "ruby-on-rails"
+        - slug: "metiers-du-multimedia-et-de-l-internet"
 
 
 ---
