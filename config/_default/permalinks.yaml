@@ -4,3 +4,5 @@ persons:        /equipe/:slug/
 organizations:  /organisations/:slug/
 authors:        /equipe/:slug/actualites/
 diplomas:       /diplomes/:slug/
+teachers:       /equipe/:slug/programs/
+researchers:    /equipe/:slug/papers/
