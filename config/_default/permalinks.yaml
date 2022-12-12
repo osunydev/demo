@@ -1,5 +1,6 @@
 categories: /actualites/:slug/
 posts: /actualites/:year/:month/:day/:slug/
+programs: /offre-de-formation/:slug/
 organizations: /organisations/:slug/
 persons: /equipe/:slug/
 authors: /equipe/:slug/actualites/
