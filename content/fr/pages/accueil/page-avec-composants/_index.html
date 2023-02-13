@@ -2,17 +2,33 @@
 title: >
   Page avec composants
 breadcrumb_title: "Page avec composants"
-url: "/page-avec-composants/"
+url: "/fr/accueil/page-avec-composants/"
 slug: "page-avec-composants"
+aliases:
+  - /page-avec-composants/
+
+full_width: false
+design:
+  full_width: false
+  toc:
+    present: true
+    offcanvas: false
 
 position: 7
-full_width: false
+translation_key: communication-website-page-a788f3ab-a3a8-4d26-9440-6cb12fbf442c
+
 bodyclass: 
 
+meta_description: >
+  
 description: >
   
+
+summary: >
+  Test un peu long
 description_short: >
   Test un peu long
+
 header_text: >-
   Test des composants
 legacy_text: >
@@ -79,6 +95,7 @@ blocks:
       Un bloc chapter
     position: 2
     data:
+      layout: no_background
       text: >-
         <p>  Lorem ipsum 2  <br></p>
 
@@ -105,6 +122,10 @@ blocks:
       Bloc datatable
     position: 3
     data:
+      description: >-
+        
+
+
 
       columns: [""]
 
@@ -119,6 +140,10 @@ blocks:
       Un bloc définitions
     position: 4
     data:
+      description: >-
+        
+
+
       elements:
         - title: >-
             Une def remplie 1
@@ -225,7 +250,7 @@ blocks:
     position: 8
     data:
       text: >-
-        Lorem ipsum bloc image
+        <p>Lorem ipsum bloc image</p>
 
 
       image:
@@ -322,18 +347,18 @@ blocks:
       
     position: 12
     data:
-      page: accueil/
+      page: /fr/accueil/
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: cards
       pages:
-        - page: /actualites/
-          slug: /actualites/
-        - page: /equipe/
-          slug: /equipe/
-        - page: /accessibilite/
-          slug: /accessibilite/
+        - page: /fr/accueil/actualites/
+          slug: /fr/accueil/actualites/
+        - page: /fr/accueil/equipe/
+          slug: /fr/accueil/equipe/
+        - page: /fr/accueil/accessibilite/
+          slug: /fr/accueil/accessibilite/
   - template: posts
     title: >-
       Bloc actualités
@@ -341,8 +366,7 @@ blocks:
     data:
       layout: grid
       posts:
-        - "2022/2022-11-28-actu-test"
-        - "2022/2022-11-25-post-de-seb"
+        - "2023/2023-02-13-test"
         - "2021/2021-11-09-post-de-test"
   - template: testimonials
     title: >-
@@ -465,18 +489,20 @@ blocks:
       Page spécifique
     position: 19
     data:
-      page: /equipe/
+      page: /fr/accueil/equipe/
       show_main_description: true
       show_descriptions: true
       show_images: true
       layout: list
       pages:
-        - page: /equipe/equipe-editoriale/
-          slug: /equipe/equipe-editoriale/
-        - page: /equipe/equipe-de-recherche/
-          slug: /equipe/equipe-de-recherche/
-        - page: /equipe/equipe-pedagogique/
-          slug: /equipe/equipe-pedagogique/
+        - page: /fr/accueil/equipe/equipe-editoriale/
+          slug: /fr/accueil/equipe/equipe-editoriale/
+        - page: /fr/accueil/equipe/equipe-administrative/
+          slug: /fr/accueil/equipe/equipe-administrative/
+        - page: /fr/accueil/equipe/equipe-de-recherche/
+          slug: /fr/accueil/equipe/equipe-de-recherche/
+        - page: /fr/accueil/equipe/equipe-pedagogique/
+          slug: /fr/accueil/equipe/equipe-pedagogique/
 
 
 ---
