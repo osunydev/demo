@@ -4,7 +4,7 @@
   kind: url
   children: []
 - title: Formations
-  target: "/fr/accueil/offre-de-formation/"
+  target: "/accueil/offre-de-formation/"
   kind: page
   children: []
 
