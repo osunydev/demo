@@ -1,0 +1,10 @@
+---
+- title: Google
+  target: https://www.google.fr
+  kind: url
+  children: []
+- title: Formations
+  target: "/fr/accueil/offre-de-formation/"
+  kind: page
+  children: []
+
