@@ -1,10 +1,14 @@
 ---
-- title: Google
-  target: https://www.google.fr
-  kind: url
+- title: Page avec composants
+  target: "/page-avec-composants/"
+  kind: page
   children: []
-- title: Formations
-  target: "/accueil/offre-de-formation/"
+- title: Actu test
+  target: "/actualites/2022-11-28-actu-test/"
+  kind: post
+  children: []
+- title: Plan du site
+  target: "/plan-du-site/"
   kind: page
   children: []
 
