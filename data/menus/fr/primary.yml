@@ -1,4 +1,6 @@
 ---
+title: Menu principal
+items:
 - title: Page avec composants
   target: "/page-avec-composants/"
   kind: page
