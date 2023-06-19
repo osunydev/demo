@@ -6,7 +6,6 @@ url: "/accueil/page-avec-composants/"
 slug: "page-avec-composants"
 aliases:
   - /page-avec-composants/
-  - /fr/accueil/page-avec-composants/
 
 full_width: false
 design:
@@ -326,6 +325,7 @@ blocks:
       Bloc partenaires
     position: 11
     data:
+      layout: grid
       description: >-
         
 
@@ -365,9 +365,11 @@ blocks:
       Bloc actualités
     position: 13
     data:
+      all: true
       layout: grid
       posts:
-        - "2023/2023-02-13-test"
+        - "2022/2022-11-28-actu-test"
+        - "2022/2022-11-25-post-de-seb"
         - "2021/2021-11-09-post-de-test"
   - template: testimonials
     title: >-
@@ -465,6 +467,8 @@ blocks:
         
 
 
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/hPXQH6gOuJM" title=""></iframe>
       transcription: >-
         Une description textuelle ici
 
@@ -498,8 +502,6 @@ blocks:
       pages:
         - page: /accueil/equipe/equipe-editoriale/
           slug: /accueil/equipe/equipe-editoriale/
-        - page: /accueil/equipe/equipe-administrative/
-          slug: /accueil/equipe/equipe-administrative/
         - page: /accueil/equipe/equipe-de-recherche/
           slug: /accueil/equipe/equipe-de-recherche/
         - page: /accueil/equipe/equipe-pedagogique/

@@ -8,7 +8,10 @@ fr:
   permalinks:
     categories: /accueil/actualites/:slug/
     posts: /accueil/actualites/:year-:month-:day-:slug/
+    diplomas: /accueil/diplomes/:slug/
     programs: /accueil/offre-de-formation/:slug/
     organizations: /accueil/organisations/:slug/
     persons: /accueil/equipe/:slug/
     authors: /accueil/equipe/:slug/actualites/
+    researchers: /accueil/equipe/:slug/papers/
+    teachers: /accueil/equipe/:slug/programs/
