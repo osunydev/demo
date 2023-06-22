@@ -11,7 +11,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 7
@@ -34,6 +34,202 @@ header_text: >-
 legacy_text: >
   
 contents:
+  - kind: heading
+    title: >-
+      Bloc datatable
+    position: 0
+    level: 2
+  - kind: block
+    template: datatable
+    title: >
+      
+    position: 3
+    data:
+      description: >-
+        
+
+
+
+      columns: [""]
+
+
+      rows:
+      caption: >-
+        
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Bloc actualités
+    position: 1
+    level: 2
+  - kind: block
+    template: posts
+    title: >
+      
+    position: 13
+    data:
+      all: true
+      layout: grid
+      posts:
+        - "2022/2022-11-28-actu-test"
+        - "2022/2022-11-25-post-de-seb"
+        - "2021/2021-11-09-post-de-test"
+
+
+
+  - kind: heading
+    title: >-
+      Un bloc embed
+    position: 2
+    level: 2
+  - kind: block
+    template: embed
+    title: >
+      
+    position: 5
+    data:
+      code: >-
+        <span class="color: red;">un texte en rouge normalement</span>
+
+
+      transcription: >-
+        Une transcription du texte en rouge normalement
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Un bloc chapter
+    position: 3
+    level: 2
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 2
+    data:
+      layout: no_background
+      text: >-
+        <p>  Lorem ipsum 2  <br></p>
+
+
+      notes: >-
+        <p>NB : des notes ici</p>
+
+
+      image:
+        id: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
+        file: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
+
+
+      alt: >-
+        un test de l'image
+
+
+      credit: >-
+        <p>crédit de l'image</p>
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Bloc frise chronologique
+    position: 4
+    level: 2
+  - kind: block
+    template: timeline
+    title: >
+      
+    position: 15
+    data:
+      layout: vertical
+
+      events:
+        - title: >-
+            800 - charlemagne empereur
+
+
+          text: >-
+            Une description parce que c'est important
+
+
+        - title: >-
+            Juste un titre
+
+
+          text: >-
+            un événement sans date
+
+
+        - title: >-
+            
+
+
+          text: >-
+            
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Bloc vidéo
+    position: 5
+    level: 2
+  - kind: block
+    template: video
+    title: >
+      
+    position: 16
+    data:
+      url: >-
+        https://www.youtube.com/watch?v=hPXQH6gOuJM
+
+
+      video_title: >-
+        
+
+
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/hPXQH6gOuJM" title=""></iframe>
+      transcription: >-
+        Une description textuelle ici
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Actualités catégorie
+    position: 6
+    level: 2
+  - kind: block
+    template: posts
+    title: >
+      
+    position: 17
+    data:
+      category: "/offre-de-formation/css/"
+      layout: grid
+      posts:
+
+
+
+  - kind: heading
+    title: >-
+      Actualités sélection
+    position: 7
+    level: 2
   - kind: block
     template: call_to_action
     title: >
@@ -94,60 +290,125 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: posts
     title: >
-      Un bloc chapter
-    position: 2
+      
+    position: 18
     data:
-      layout: no_background
-      text: >-
-        <p>  Lorem ipsum 2  <br></p>
-
-
-      notes: >-
-        <p>NB : des notes ici</p>
-
-
-      image:
-        id: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
-        file: "ed2dbd21-3d52-49f7-8f5a-c7401970364e"
-
-
-      alt: >-
-        un test de l'image
-
-
-      credit: >-
-        <p>crédit de l'image</p>
+      layout: grid
+      posts:
+        - "2021/2021-11-09-post-de-test"
 
 
 
-
+  - kind: heading
+    title: >-
+      Un bloc files
+    position: 8
+    level: 2
   - kind: block
-    template: datatable
+    template: files
     title: >
-      Bloc datatable
-    position: 3
+      
+    position: 6
     data:
       description: >-
         
 
 
+      files:
+        - id: "663460cc-d0c9-42e0-8926-c21101375db2"
+          file: "663460cc-d0c9-42e0-8926-c21101375db2"
 
-      columns: [""]
+
+          title: >-
+            Titre du fichier
 
 
-      rows:
-      caption: >-
+
+
+
+  - kind: heading
+    title: >-
+      Bloc key figure
+    position: 9
+    level: 2
+  - kind: block
+    template: key_figures
+    title: >
+      
+    position: 9
+    data:
+      description: >-
         
 
 
+      figures:
+        - number: 800
+
+          unit: >-
+            ans
 
 
+          description: >-
+            après JC sacre de charlemagne
+
+
+        - number: 0
+
+          unit: >-
+            
+
+
+          description: >-
+            
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Bloc organigramme
+    position: 10
+    level: 2
+  - kind: block
+    template: organization_chart
+    title: >
+      
+    position: 10
+    data:
+      description: >-
+        
+
+
+      with_link: false
+
+      with_photo: false
+
+      persons:
+        - slug: "pierre-andre-boissinot"
+          role: >-
+            Un rôle rempli
+
+
+        - slug: "sebastien-moulene"
+          role: >-
+            
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Un bloc définitions
+    position: 11
+    level: 2
   - kind: block
     template: definitions
     title: >
-      Un bloc définitions
+      
     position: 4
     data:
       description: >-
@@ -181,94 +442,16 @@ contents:
 
 
 
-  - kind: block
-    template: embed
-    title: >
-      Un bloc embed
-    position: 5
-    data:
-      code: >-
-        <span class="color: red;">un texte en rouge normalement</span>
 
-
-      transcription: >-
-        Une transcription du texte en rouge normalement
-
-
-
-
-  - kind: block
-    template: files
-    title: >
-      Un bloc files
-    position: 6
-    data:
-      description: >-
-        
-
-
-      files:
-        - id: "663460cc-d0c9-42e0-8926-c21101375db2"
-          file: "663460cc-d0c9-42e0-8926-c21101375db2"
-
-
-          title: >-
-            Titre du fichier
-
-
-
-
-  - kind: block
-    template: gallery
-    title: >
-      Un bloc galerie
-    position: 7
-    data:
-      description: >-
-        
-
-
-      layout: grid
-
-      images:
-        - id: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
-          file: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
-
-
-          alt: >-
-            Un texte alt
-
-
-          credit: >-
-            <p>crédit 1 gal</p>
-
-
-          text: >-
-            Du texte image de gal 1
-
-
-        - id: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
-          file: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            <p>crédit 2 gal</p>
-
-
-          text: >-
-            Du texte image de gal 2
-
-
-
-
+  - kind: heading
+    title: >-
+      Un bloc image
+    position: 12
+    level: 2
   - kind: block
     template: image
     title: >
-      Un bloc image
+      
     position: 8
     data:
       text: >-
@@ -291,69 +474,35 @@ contents:
 
 
   - kind: block
-    template: key_figures
+    template: pages
     title: >
-      Bloc key figure
-    position: 9
+      
+    position: 12
     data:
-      description: >-
-        
-
-
-      figures:
-        - number: 800
-
-          unit: >-
-            ans
-
-
-          description: >-
-            après JC sacre de charlemagne
-
-
-        - number: 0
-
-          unit: >-
-            
-
-
-          description: >-
-            
+      page: /accueil/
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: cards
+      pages:
+        - page: /accueil/actualites/
+          slug: /accueil/actualites/
+        - page: /accueil/equipe/
+          slug: /accueil/equipe/
+        - page: /accueil/accessibilite/
+          slug: /accueil/accessibilite/
 
 
 
-
-  - kind: block
-    template: organization_chart
-    title: >
-      Bloc organigramme
-    position: 10
-    data:
-      description: >-
-        
-
-
-      with_link: false
-
-      with_photo: false
-
-      persons:
-        - slug: "pierre-andre-boissinot"
-          role: >-
-            Un rôle rempli
-
-
-        - slug: "sebastien-moulene"
-          role: >-
-            
-
-
-
-
+  - kind: heading
+    title: >-
+      Bloc partenaires
+    position: 13
+    level: 2
   - kind: block
     template: partners
     title: >
-      Bloc partenaires
+      
     position: 11
     data:
       layout: grid
@@ -376,44 +525,44 @@ contents:
           logo: ""
 
 
+
+  - kind: heading
+    title: >-
+      Page spécifique
+    position: 14
+    level: 2
   - kind: block
     template: pages
     title: >
       
-    position: 12
+    position: 19
     data:
-      page: /accueil/
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: cards
+      page: /accueil/equipe/
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: list
       pages:
-        - page: /accueil/actualites/
-          slug: /accueil/actualites/
-        - page: /accueil/equipe/
-          slug: /accueil/equipe/
-        - page: /accueil/accessibilite/
-          slug: /accueil/accessibilite/
+        - page: /accueil/equipe/equipe-editoriale/
+          slug: /accueil/equipe/equipe-editoriale/
+        - page: /accueil/equipe/equipe-de-recherche/
+          slug: /accueil/equipe/equipe-de-recherche/
+        - page: /accueil/equipe/equipe-pedagogique/
+          slug: /accueil/equipe/equipe-pedagogique/
+        - page: /accueil/equipe/equipe-administrative/
+          slug: /accueil/equipe/equipe-administrative/
 
 
-  - kind: block
-    template: posts
-    title: >
-      Bloc actualités
-    position: 13
-    data:
-      all: true
-      layout: grid
-      posts:
-        - "2022/2022-11-28-actu-test"
-        - "2022/2022-11-25-post-de-seb"
-        - "2021/2021-11-09-post-de-test"
 
-
+  - kind: heading
+    title: >-
+      Bloc de témoignages
+    position: 15
+    level: 2
   - kind: block
     template: testimonials
     title: >
-      Bloc de témoignages
+      
     position: 14
     data:
       testimonials:
@@ -464,139 +613,59 @@ contents:
 
 
 
-  - kind: block
-    template: timeline
-    title: >
-      Bloc frise chronologique
-    position: 15
-    data:
-      layout: vertical
-
-      events:
-        - title: >-
-            800 - charlemagne empereur
-
-
-          text: >-
-            Une description parce que c'est important
-
-
-        - title: >-
-            Juste un titre
-
-
-          text: >-
-            un événement sans date
-
-
-        - title: >-
-            
-
-
-          text: >-
-            
-
-
-
-
-  - kind: block
-    template: video
-    title: >
-      Bloc vidéo
-    position: 16
-    data:
-      url: >-
-        https://www.youtube.com/watch?v=hPXQH6gOuJM
-
-
-      video_title: >-
-        
-
-
-      video_iframe: >-
-        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/hPXQH6gOuJM" title=""></iframe>
-      transcription: >-
-        Une description textuelle ici
-
-
-
-
-  - kind: block
-    template: posts
-    title: >
-      Actualités catégorie
-    position: 17
-    data:
-      category: "/offre-de-formation/css/"
-      layout: grid
-      posts:
-
-
-  - kind: block
-    template: posts
-    title: >
-      Actualités sélection
-    position: 18
-    data:
-      layout: grid
-      posts:
-        - "2021/2021-11-09-post-de-test"
-
-
-  - kind: block
-    template: pages
-    title: >
-      Page spécifique
-    position: 19
-    data:
-      page: /accueil/equipe/
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
-      layout: list
-      pages:
-        - page: /accueil/equipe/equipe-editoriale/
-          slug: /accueil/equipe/equipe-editoriale/
-        - page: /accueil/equipe/equipe-de-recherche/
-          slug: /accueil/equipe/equipe-de-recherche/
-        - page: /accueil/equipe/equipe-pedagogique/
-          slug: /accueil/equipe/equipe-pedagogique/
-        - page: /accueil/equipe/equipe-administrative/
-          slug: /accueil/equipe/equipe-administrative/
-
 
   - kind: heading
     title: >-
-      Bloc datatable
-    position: 0
+      Un bloc galerie
+    position: 16
     level: 2
   - kind: block
-    template: datatable
+    template: gallery
     title: >
       
-    position: 3
+    position: 7
     data:
       description: >-
         
 
 
+      layout: grid
 
-      columns: [""]
-
-
-      rows:
-      caption: >-
-        
+      images:
+        - id: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
+          file: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
 
 
+          alt: >-
+            Un texte alt
+
+
+          credit: >-
+            <p>crédit 1 gal</p>
+
+
+          text: >-
+            Du texte image de gal 1
+
+
+        - id: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
+          file: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
+
+
+          alt: >-
+            
+
+
+          credit: >-
+            <p>crédit 2 gal</p>
+
+
+          text: >-
+            Du texte image de gal 2
 
 
 
-  - kind: heading
-    title: >-
-      Bloc actualités
-    position: 1
-    level: 2
+
 
 blocks:
   - template: call_to_action
@@ -657,7 +726,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Un bloc chapter
+      
     position: 2
     data:
       layout: no_background
@@ -702,7 +771,7 @@ blocks:
 
   - template: definitions
     title: >-
-      Un bloc définitions
+      
     position: 4
     data:
       description: >-
@@ -736,7 +805,7 @@ blocks:
 
   - template: embed
     title: >-
-      Un bloc embed
+      
     position: 5
     data:
       code: >-
@@ -749,7 +818,7 @@ blocks:
 
   - template: files
     title: >-
-      Un bloc files
+      
     position: 6
     data:
       description: >-
@@ -767,7 +836,7 @@ blocks:
 
   - template: gallery
     title: >-
-      Un bloc galerie
+      
     position: 7
     data:
       description: >-
@@ -811,7 +880,7 @@ blocks:
 
   - template: image
     title: >-
-      Un bloc image
+      
     position: 8
     data:
       text: >-
@@ -833,7 +902,7 @@ blocks:
 
   - template: key_figures
     title: >-
-      Bloc key figure
+      
     position: 9
     data:
       description: >-
@@ -863,7 +932,7 @@ blocks:
 
   - template: organization_chart
     title: >-
-      Bloc organigramme
+      
     position: 10
     data:
       description: >-
@@ -887,7 +956,7 @@ blocks:
 
   - template: partners
     title: >-
-      Bloc partenaires
+      
     position: 11
     data:
       layout: grid
@@ -927,7 +996,7 @@ blocks:
           slug: /accueil/accessibilite/
   - template: posts
     title: >-
-      Bloc actualités
+      
     position: 13
     data:
       all: true
@@ -938,7 +1007,7 @@ blocks:
         - "2021/2021-11-09-post-de-test"
   - template: testimonials
     title: >-
-      Bloc de témoignages
+      
     position: 14
     data:
       testimonials:
@@ -989,7 +1058,7 @@ blocks:
 
   - template: timeline
     title: >-
-      Bloc frise chronologique
+      
     position: 15
     data:
       layout: vertical
@@ -1021,7 +1090,7 @@ blocks:
 
   - template: video
     title: >-
-      Bloc vidéo
+      
     position: 16
     data:
       url: >-
@@ -1040,7 +1109,7 @@ blocks:
 
   - template: posts
     title: >-
-      Actualités catégorie
+      
     position: 17
     data:
       category: "/offre-de-formation/css/"
@@ -1048,7 +1117,7 @@ blocks:
       posts:
   - template: posts
     title: >-
-      Actualités sélection
+      
     position: 18
     data:
       layout: grid
@@ -1056,7 +1125,7 @@ blocks:
         - "2021/2021-11-09-post-de-test"
   - template: pages
     title: >-
-      Page spécifique
+      
     position: 19
     data:
       page: /accueil/equipe/
