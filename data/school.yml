@@ -11,14 +11,5 @@ country: >
   France
 phone: >
   
-administrators:
-  - "pierre-andre-boissinot"
-administrators_description:
-  "pierre-andre-boissinot": >
-    Direction
-roles:
-  - title: >
-      Direction
-    persons:
-      - "pierre-andre-boissinot"
+roles: []
 ---

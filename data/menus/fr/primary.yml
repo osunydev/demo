@@ -1,16 +1,4 @@
 ---
 title: Menu principal
-items:
-- title: Page avec composants
-  target: "/fr/new-path/"
-  kind: page
-  children: []
-- title: Plan du site
-  target: "/fr/plan-du-site/"
-  kind: page
-  children: []
-- title: Actu test
-  target: "/fr/actualites/2022-11-28-actu-test/"
-  kind: post
-  children: []
+items: []
 
