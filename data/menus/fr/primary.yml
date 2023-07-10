@@ -1,4 +1,40 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Page avec composants
+  target: "/fr/new-path/"
+  kind: page
+  children:
+  - title: test
+    target: ''
+    kind: blank
+    children:
+    - title: sous
+      target: ''
+      kind: blank
+      children: []
+  - title: test
+    target: ''
+    kind: blank
+    children: []
+  - title: niveau 1
+    target: ''
+    kind: blank
+    children:
+    - title: niveau 2
+      target: ''
+      kind: blank
+      children: []
+    - title: niveau 3
+      target: ''
+      kind: blank
+      children: []
+- title: Plan du site
+  target: "/fr/plan-du-site/"
+  kind: page
+  children: []
+- title: Actu test
+  target: "/fr/actualites/2022-11-28-actu-test/"
+  kind: post
+  children: []
 
