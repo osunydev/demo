@@ -30,7 +30,7 @@ description_short: >
 contents:
   - kind: block
     template: chapter
-    title: >
+    title: >-
       
     position: 4
     data:
@@ -38,26 +38,21 @@ contents:
       text: >-
         
 
-
       notes: >-
         
 
 
-
-
       alt: >-
         
-
 
       credit: >-
         
 
 
 
-
   - kind: block
     template: datatable
-    title: >
+    title: >-
       
     position: 5
     data:
@@ -65,14 +60,11 @@ contents:
         
 
 
-
       columns: [""]
-
 
       rows:
       caption: >-
         
-
 
 
 
@@ -83,66 +75,6 @@ contents:
     level: 2
   - kind: block
     template: image
-    title: >
-      Pandas
-    position: 1
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "4d1d6332-3349-4a13-98a8-2f476a523bd8"
-        file: "4d1d6332-3349-4a13-98a8-2f476a523bd8"
-
-
-        alt: >-
-          pandas
-
-
-        credit: >-
-          
-
-
-
-
-  - kind: block
-    template: partners
-    title: >
-      
-    position: 2
-    data:
-      layout: map
-      description: >-
-        
-
-
-      with_link: false
-
-      partners:
-        - slug: "iut"
-        - slug: "noesya"
-
-
-  - kind: block
-    template: partners
-    title: >
-      
-    position: 3
-    data:
-      layout: grid
-      description: >-
-        
-
-
-      with_link: false
-
-      partners:
-
-
-
-blocks:
-  - template: image
     title: >-
       Pandas
     position: 1
@@ -150,21 +82,20 @@ blocks:
       text: >-
         
 
-
       image:
         id: "4d1d6332-3349-4a13-98a8-2f476a523bd8"
         file: "4d1d6332-3349-4a13-98a8-2f476a523bd8"
 
-
         alt: >-
           pandas
-
 
         credit: >-
           
 
 
-  - template: partners
+
+  - kind: block
+    template: partners
     title: >-
       
     position: 2
@@ -173,13 +104,14 @@ blocks:
       description: >-
         
 
-
       with_link: false
-
       partners:
         - slug: "iut"
         - slug: "noesya"
-  - template: partners
+
+
+  - kind: block
+    template: partners
     title: >-
       
     position: 3
@@ -188,51 +120,63 @@ blocks:
       description: >-
         
 
-
       with_link: false
-
       partners:
-  - template: chapter
+
+
+  - kind: block
+    template: license
     title: >-
       
     position: 4
     data:
-      layout: no_background
-      text: >-
-        
+      type: creative_commons
+      creative_commons:
+        attribution: true
+        commercial_use: false
+        derivatives: true
+        sharing: false
+        identifier: by-nc-sa
+        label: >-
+          CC BY-NC-SA 4.0
+        url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        icons: ["cc", "by", "nc", "sa"]
 
-
-      notes: >-
-        
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-  - template: datatable
+  - kind: block
+    template: license
     title: >-
       
     position: 5
     data:
-      description: >-
-        
+      type: creative_commons
+      creative_commons:
+        attribution: true
+        commercial_use: false
+        derivatives: true
+        sharing: true
+        identifier: by-nc
+        label: >-
+          CC BY-NC 4.0
+        url: https://creativecommons.org/licenses/by-nc/4.0/
+        icons: ["cc", "by", "nc"]
 
-
-
-      columns: [""]
-
-
-      rows:
-      caption: >-
-        
-
+  - kind: block
+    template: license
+    title: >-
+      
+    position: 6
+    data:
+      type: creative_commons
+      creative_commons:
+        attribution: false
+        commercial_use: true
+        derivatives: true
+        sharing: true
+        identifier: cc-zero
+        label: >-
+          CC0 1.0 Universal
+        url: https://creativecommons.org/publicdomain/zero/1.0/
+        icons: ["cc", "zero"]
 
 
 

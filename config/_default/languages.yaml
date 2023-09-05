@@ -15,7 +15,7 @@ fr:
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/papers/
+    researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
 en:
   title: Site de démo
@@ -32,7 +32,7 @@ en:
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/papers/
+    researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
 it:
   title: Site de démo
@@ -49,5 +49,5 @@ it:
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/papers/
+    researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/

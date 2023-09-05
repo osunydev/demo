@@ -5,17 +5,13 @@ items:
   target: "/fr/new-path/"
   kind: page
   children:
-  - title: test
+  - title: test azdqfsdv
     target: ''
     kind: blank
-    children:
-    - title: sous
-      target: ''
-      kind: blank
-      children: []
-  - title: test
-    target: ''
-    kind: blank
+    children: []
+  - title: Diplômes
+    target: "/fr/diplomes/"
+    kind: page
     children: []
   - title: niveau 1
     target: ''
@@ -32,9 +28,9 @@ items:
 - title: Plan du site
   target: "/fr/plan-du-site/"
   kind: page
-  children: []
-- title: Actu test
-  target: "/fr/actualites/2022-11-28-actu-test/"
-  kind: post
-  children: []
+  children:
+  - title: Ttttttt
+    target: ''
+    kind: blank
+    children: []
 

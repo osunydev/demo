@@ -12,19 +12,21 @@ design:
     offcanvas: true
 
 position: 1
+weight: 1
 translation_key: communication-website-page-b12b020e-e7ad-4b3a-a903-1c73babcd1ad
 
 bodyclass: 
 
 children:
-  - /fr/actualites/
-  - /fr/offre-de-formation/
-  - /fr/new-path/
-  - /fr/equipe/
-  - /fr/organisations/
   - /fr/diplomes/
+  - /fr/actualites/
+  - /fr/equipe/
+  - /fr/offre-de-formation/
+  - /fr/organisations/
+  - /fr/new-path/
   - /fr/page-de-test/
   - /fr/publications/
+  - /fr/agenda/
 meta_description: >
   
 description: >
@@ -40,34 +42,34 @@ header_text: >-
 contents:
   - kind: block
     template: posts
-    title: >
+    title: >-
       
     position: 3
     data:
       all: true
       layout: grid
       posts:
-        - "2023/2023-06-05-actu-test-1"
         - "2023/2023-06-05-actu-test-2"
+        - "2023/2023-06-05-actu-test-1"
         - "2022/2022-11-28-actu-test"
 
 
   - kind: block
     template: posts
-    title: >
+    title: >-
       
     position: 4
     data:
       layout: grid
       posts:
-        - "2023/2023-06-05-actu-test-1"
         - "2023/2023-06-05-actu-test-2"
+        - "2023/2023-06-05-actu-test-1"
         - "2022/2022-11-28-actu-test"
 
 
   - kind: block
     template: pages
-    title: >
+    title: >-
       
     position: 5
     data:
@@ -85,7 +87,7 @@ contents:
     level: 2
   - kind: block
     template: chapter
-    title: >
+    title: >-
       Chapitre 1
     position: 1
     data:
@@ -93,72 +95,20 @@ contents:
       text: >-
         <p>Ceci est un chapitre</p>
 
-
       notes: >-
         
-
-
 
 
       alt: >-
         
 
-
       credit: >-
         
-
 
 
 
   - kind: block
     template: organization_chart
-    title: >
-      
-    position: 2
-    data:
-      description: >-
-        
-
-
-      with_link: false
-
-      with_photo: false
-
-      persons:
-        - slug: "olivia-simonet"
-          role: >-
-            
-
-
-
-
-
-blocks:
-  - template: chapter
-    title: >-
-      Chapitre 1
-    position: 1
-    data:
-      layout: no_background
-      text: >-
-        <p>Ceci est un chapitre</p>
-
-
-      notes: >-
-        
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-  - template: organization_chart
     title: >-
       
     position: 2
@@ -166,48 +116,166 @@ blocks:
       description: >-
         
 
-
       with_link: false
-
       with_photo: false
-
       persons:
         - slug: "olivia-simonet"
           role: >-
             
 
 
-  - template: posts
+
+  - kind: block
+    template: image
     title: >-
       
     position: 3
     data:
-      all: true
-      layout: grid
-      posts:
-        - "2023/2023-06-05-actu-test-1"
-        - "2023/2023-06-05-actu-test-2"
-        - "2022/2022-11-28-actu-test"
-  - template: posts
+      text: >-
+        
+
+
+        alt: >-
+          
+
+        credit: >-
+          
+
+
+
+  - kind: block
+    template: gallery
     title: >-
       
     position: 4
     data:
+      description: >-
+        
+
       layout: grid
-      posts:
-        - "2023/2023-06-05-actu-test-1"
-        - "2023/2023-06-05-actu-test-2"
-        - "2022/2022-11-28-actu-test"
-  - template: pages
-    title: >-
-      
-    position: 5
-    data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
+      images:
+        - id: "a6a66d2a-e509-4384-b294-3f8bf5633006"
+          file: "a6a66d2a-e509-4384-b294-3f8bf5633006"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "5384cec1-6d67-48d5-98b3-49aab8736bf2"
+          file: "5384cec1-6d67-48d5-98b3-49aab8736bf2"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "44a3c686-1545-4eb3-bb10-46f4f31f9bbf"
+          file: "44a3c686-1545-4eb3-bb10-46f4f31f9bbf"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "14547710-f0f5-442d-b8ad-7f591419ffcc"
+          file: "14547710-f0f5-442d-b8ad-7f591419ffcc"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "a2ca81d2-39c0-4d3d-af99-ce00d6a1c832"
+          file: "a2ca81d2-39c0-4d3d-af99-ce00d6a1c832"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "200ef67e-3e64-4186-8a3b-069bd7e9a6d9"
+          file: "200ef67e-3e64-4186-8a3b-069bd7e9a6d9"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "8e0942f0-67dd-4b7c-8906-adfca9be42be"
+          file: "8e0942f0-67dd-4b7c-8906-adfca9be42be"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "35fdafc0-0297-4338-9e85-1318095901d3"
+          file: "35fdafc0-0297-4338-9e85-1318095901d3"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "4a6b9c50-3326-4316-9a9c-097ce8e8b1d7"
+          file: "4a6b9c50-3326-4316-9a9c-097ce8e8b1d7"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "e625330c-552b-4828-948d-829e71884a36"
+          file: "e625330c-552b-4828-948d-829e71884a36"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+
+
 
 
 ---

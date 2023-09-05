@@ -1,6 +1,6 @@
 ---
 title: "Actu test 2"
-date: "2023-06-05T10:47:25+02:00"
+date: "2023-06-05T00:00:00+02:00"
 url: "/fr/actualites/2023-06-05-actu-test-1/"
 slug: "actu-test-1"
 
@@ -16,6 +16,11 @@ authors:
   - "pierre-andre-boissinot-1"
 translation_key: communication-website-post-25bf629a-27ef-40b6-bb61-4fd0a984e08d
 
+image:
+  id: "cfa7beab-4b1c-4c8e-87d3-f4622dedc352"
+  alt: ""
+  credit: >
+    <p>Photo by <a href="https://unsplash.com/@iamromankraft?utm_source=osuny&amp;utm_medium=referral"> Roman Kraft</a> on <a href="https://unsplash.com/?utm_source=osuny&amp;utm_medium=referral">Unsplash</a></p>
 
 meta_description: >
   
@@ -28,6 +33,57 @@ description_short: >
   lorem ipsum
 
 contents:
+  - kind: block
+    template: contact
+    title: >-
+      
+    position: 1
+    data:
+      description: >-
+        
+
+      name: >-
+        Arnaud Levy
+
+      information: >-
+        <p>Une petite <b>information </b><a href="https://www.google.fr" target="_blank">avec un lien</a></p>
+
+      address:
+        address: >-
+          5 rue Frédéric Joliot Curie
+
+        zipcode: >-
+          33150
+
+        city: >-
+          Cenon
+
+        country: >-
+          France
+
+
+      phone_numbers: ["+33687602193"]
+
+      url: >-
+        https://bordeauxmontaigne-iut.netlify.app/
+
+
+      emails: ["arnaud.levy@noesya.coop"]
+
+      timetable:
+        - title: >-
+            Tous les jours
+
+          time_slot_morning:
+            from: ""
+            to: ""
+
+          time_slot_afternoon:
+            from: "08:00"
+            to: "18:00"
+
+
+
   - kind: heading
     title: >-
       Pandas
@@ -35,25 +91,21 @@ contents:
     level: 2
   - kind: block
     template: partners
-    title: >
+    title: >-
       
-    position: 2
+    position: 3
     data:
       layout: map
       description: >-
         
 
-
       with_link: false
-
       partners:
         - name: >-
             Test
 
-
           url: >-
             
-
 
           logo: ""
         - slug: "noesya"
@@ -61,112 +113,96 @@ contents:
 
   - kind: block
     template: partners
-    title: >
+    title: >-
       
-    position: 3
+    position: 4
     data:
       layout: grid
       description: >-
         
 
-
       with_link: false
-
       partners:
         - slug: "iut"
 
 
   - kind: block
     template: image
-    title: >
-      
-    position: 4
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
-        file: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-
-
-  - kind: block
-    template: image
-    title: >
+    title: >-
       
     position: 5
     data:
       text: >-
         
 
-
       image:
-        id: "23357f33-653c-4d77-9ec9-8fb40250269b"
-        file: "23357f33-653c-4d77-9ec9-8fb40250269b"
-
+        id: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
+        file: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
 
         alt: >-
           
-
 
         credit: >-
           
 
 
 
-
   - kind: block
-    template: video
-    title: >
+    template: image
+    title: >-
       
     position: 6
     data:
-      url: >-
-        https://vimeo.com/715280780
-
-
-      video_title: >-
+      text: >-
         
 
+      image:
+        id: "23357f33-653c-4d77-9ec9-8fb40250269b"
+        file: "23357f33-653c-4d77-9ec9-8fb40250269b"
 
-      video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
-      transcription: >-
-        
+        alt: >-
+          
 
+        credit: >-
+          
 
 
 
   - kind: block
     template: video
-    title: >
+    title: >-
       
     position: 7
     data:
       url: >-
         https://vimeo.com/715280780
 
-
       video_title: >-
         
-
 
       video_iframe: >-
         <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
       transcription: >-
         
 
+
+
+  - kind: block
+    template: video
+    title: >-
+      
+    position: 8
+    data:
+      url: >-
+        https://vimeo.com/715280780
+
+      video_title: >-
+        
+
+      video_iframe: >-
+        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
+      transcription: >-
+        
 
 
 
@@ -176,125 +212,184 @@ contents:
       
     position: 1
     level: 2
-
-blocks:
-  - template: partners
+  - kind: block
+    template: embed
     title: >-
       
-    position: 2
+    position: 1
     data:
-      layout: map
-      description: >-
+      code: >-
+        <form id="sb_form"
+        
+          onsubmit="process2(
+        
+            'https://services.sarbacane.com/core/v1/forms/contacts/upsert?listID&#x3D;vhKgX3wYTZa0vabzulTh5A&amp;formID&#x3D;a5w328xDREGY2iicsu2ktA&amp;timezone&#x3D;Europe/Paris', 'https://forms.sbc28.com/', '5a82a798b85b5345e11ca5a8', 'false', 'message',
+        
+            '', 'https://services.sarbacane.com/core/v1/transactional/sendmessage/optin', 'Merci', 'Vos informations ont été ajoutées avec succès.',
+        
+            'Vous allez recevoir un email', 'Vous devrez cliquer sur le lien de confirmation pour valider votre inscription', 'Erreur',
+        
+            'Une erreur inattendue s%27est produite.', 'Le formulaire est en cours d%27édition, veuillez patienter quelques minutes avant d%27essayer à nouveau.', '',
+        
+            '', ''
+        
+          );
+        
+          return false;"
+        
+          method="post">
+        
+        
+        
+          <fieldset>
+        
+            <div style="display: flex;flex-direction: row;">
+        
+              <label id="label-CIVILITY_ID">Civilité *</label>
+        
+            </div>
+        
+            <div style="display: flex;flex-direction: row;">
+        
+              <div class="radio" style="display: flex; flex-direction: row;">
+        
+                <label class="control control--radio">
+        
+                  <input type="radio" value="Madame" name="CIVILITY_ID"  id="CIVILITY_ID_0" required="true" sb-form-input="">
+        
+                  <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+                </label>
+        
+                <label id="label-opt-CIVILITY_ID" for="CIVILITY_ID_0">Madame</label>
+        
+              </div>
+        
+              <div class="radio" style="display: flex; flex-direction: row;">
+        
+                <label class="control control--radio">
+        
+                  <input type="radio" value="Monsieur" id="CIVILITY_ID_1" name="CIVILITY_ID" required="true" sb-form-input="">
+        
+                  <div id="indicator-CIVILITY_ID" class="control__indicator"></div>
+        
+                </label>
+        
+                <label id="label-opt-CIVILITY_ID" for="CIVILITY_ID_1">Monsieur</label>
+        
+              </div>
+        
+            </div>
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-FIRSTNAME_ID" for="input-FIRSTNAME_ID">Prénom *</label>
+        
+            </span>
+        
+            <input id="input-FIRSTNAME_ID" type="text" name="FIRSTNAME_ID" required="true" sb-form-input="">
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-LASTNAME_ID" for="input-LASTNAME_ID">Nom *</label>
+        
+            </span>
+        
+            <input id="input-LASTNAME_ID" type="text" name="LASTNAME_ID" required="true" sb-form-input="">
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-EMAIL_ID">Email *</label>
+        
+            </span>
+        
+            <input id="input-email" type="email" name="email" required="true" sb-form-input="">
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-uy2bj2r2zhojljfle0j2dl">Structure *</label>
+        
+            </span>
+        
+            <input id="input-uy2bj2r2zhojljfle0j2dl" type="text" name="uy2bj2r2zhojljfle0j2dl" required="true" sb-form-input>
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-e6txqjprsq8eyabxmgzxg">Poste *</label>
+        
+            </span>
+        
+            <input id="input-e6txqjprsq8eyabxmgzxg" type="text" name="e6txqjprsq8eyabxmgzxg" required="true" sb-form-input>
+        
+          </fieldset>
+        
+        
+        
+          <fieldset>
+        
+            <span style="display: flex;flex-direction: row;">
+        
+              <label id="label-o8v8tmo1p7829vi294sp">Code postal *</label>
+        
+            </span>
+        
+            <input id="input-o8v8tmo1p7829vi294sp" type="text" name="o8v8tmo1p7829vi294sp" required="true" sb-form-input>
+        
+          </fieldset>
+        
+        
+        
+          <div id="div-submitInput" class="submit">
+        
+            <button id="submitInput" type="submit" value="VALIDER" class="mobile-FW"><span style="margin:0;">Valider</span></button>
+        
+            <div class="loader" style="display:none"></div>
+        
+          </div>
+        
+          <label class="meta" id="form-footer-mandatory">* Champs obligatoires</label>
+        
+        </form>
+        
+        
+        
+        <script type="text/javascript" src="https://forms.sbc28.com/form.js"></script>
+        
         
 
-
-      with_link: false
-
-      partners:
-        - name: >-
-            Test
-
-
-          url: >-
-            
-
-
-          logo: ""
-        - slug: "noesya"
-  - template: partners
-    title: >-
-      
-    position: 3
-    data:
-      layout: grid
-      description: >-
-        
-
-
-      with_link: false
-
-      partners:
-        - slug: "iut"
-  - template: image
-    title: >-
-      
-    position: 4
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
-        file: "c746a4dd-9a85-4b25-81a8-f980b7905f74"
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-  - template: image
-    title: >-
-      
-    position: 5
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "23357f33-653c-4d77-9ec9-8fb40250269b"
-        file: "23357f33-653c-4d77-9ec9-8fb40250269b"
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-  - template: video
-    title: >-
-      
-    position: 6
-    data:
-      url: >-
-        https://vimeo.com/715280780
-
-
-      video_title: >-
-        
-
-
-      video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
       transcription: >-
         
 
-
-  - template: video
-    title: >-
-      
-    position: 7
-    data:
-      url: >-
-        https://vimeo.com/715280780
-
-
-      video_title: >-
-        
-
-
-      video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
-      transcription: >-
-        
 
 
 
