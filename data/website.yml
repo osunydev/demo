@@ -4,6 +4,7 @@ external_domains:
   - "osuny-1b4da.kxcdn.com"
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
+  - "tile.openstreetmap.org"
   - "plausible.io"
   - "www.youtube.com"
   - "player.vimeo.com"
@@ -15,3 +16,22 @@ external_domains:
   - "t.co"
   - "twitter.com"
   - "platform.twitter.com"
+social:
+  mastodon: >-
+    https://mastodon
+  peertube: >-
+    https://peertube
+  x: >-
+    https://twitter
+  linkedin: >-
+    https://linkedin
+  youtube: >-
+    https://youtube
+  vimeo: >-
+    https://vimeo
+  instagram: >-
+    https://instagram
+  facebook: >-
+    https://facebook
+  tiktok: >-
+    https://tiktok
