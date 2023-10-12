@@ -1,36 +1,32 @@
 ---
 title: Menu principal
 items:
+- title: Actualités
+  target: "/accueil/actualites/"
+  kind: page
+  children: []
+- title: L'offre de formation
+  target: "/accueil/offre-de-formation/"
+  kind: page
+  children: []
 - title: Page avec composants
-  target: "/fr/new-path/"
+  target: "/accueil/page-avec-composants/"
   kind: page
-  children:
-  - title: test azdqfsdv
-    target: ''
-    kind: blank
-    children: []
-  - title: Diplômes
-    target: "/fr/diplomes/"
-    kind: page
-    children: []
-  - title: niveau 1
-    target: ''
-    kind: blank
-    children:
-    - title: niveau 2
-      target: ''
-      kind: blank
-      children: []
-    - title: niveau 3
-      target: ''
-      kind: blank
-      children: []
-- title: Plan du site
-  target: "/fr/plan-du-site/"
+  children: []
+- title: Équipe
+  target: "/accueil/equipe/"
   kind: page
-  children:
-  - title: Ttttttt
-    target: ''
-    kind: blank
-    children: []
+  children: []
+- title: Organisations
+  target: "/accueil/organisations/"
+  kind: page
+  children: []
+- title: Diplômes
+  target: "/accueil/diplomes/"
+  kind: page
+  children: []
+- title: Page de test
+  target: "/accueil/page-de-test/"
+  kind: page
+  children: []
 

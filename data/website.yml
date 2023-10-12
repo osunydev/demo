@@ -5,33 +5,8 @@ external_domains:
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
-  - "plausible.io"
+  - "youtube.com"
   - "www.youtube.com"
-  - "player.vimeo.com"
-  - "www.instagram.com"
-  - "www.w3.org"
-  - "www.openstreetmap.org"
-  - "services.sarbacane.com"
-  - "forms.sbc28.com"
-  - "t.co"
-  - "twitter.com"
-  - "platform.twitter.com"
+  - "img.youtube.com"
+  - "youtu.be"
 social:
-  mastodon: >-
-    https://mastodon
-  peertube: >-
-    https://peertube
-  x: >-
-    https://twitter
-  linkedin: >-
-    https://linkedin
-  youtube: >-
-    https://youtube
-  vimeo: >-
-    https://vimeo
-  instagram: >-
-    https://instagram
-  facebook: >-
-    https://facebook
-  tiktok: >-
-    https://tiktok
