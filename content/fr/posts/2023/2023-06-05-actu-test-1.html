@@ -1,8 +1,18 @@
 ---
 title: "Actu test 2"
 date: "2023-06-05T00:00:00+02:00"
-url: "/fr/actualites/2023-06-05-actu-test-1/"
+breadcrumbs:
+  - title: "Index"
+    path: "/fr/"
+  - title: "Diplômes"
+    path: "/fr/diplomes/"
+  - title: "Actualités renommées"
+    path: "/fr/diplomes/actualites/"
+  - title: "Actu test 2"
+url: "/fr/diplomes/actualites/2023-06-05-actu-test-1/"
 slug: "actu-test-1"
+aliases:
+  - /fr/actualites/2023-06-05-actu-test-1/
 
 full_width: false
 design:
@@ -14,6 +24,7 @@ design:
 weight: 1
 authors:
   - "pierre-andre-boissinot-1"
+
 translation_key: communication-website-post-25bf629a-27ef-40b6-bb61-4fd0a984e08d
 
 image:
@@ -42,6 +53,8 @@ contents:
     title: >-
       
     position: 1
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -92,70 +105,51 @@ contents:
     title: >-
       Pandas
     position: 0
-    level: 2
+    rank: 2
   - kind: block
-    template: partners
+    template: organizations
     title: >-
       
     position: 3
+    ranks:
+      self: false
+      children: 3
     data:
       layout: map
       description: >-
         
 
       with_link: false
-      partners:
+      organizations:
         - name: >-
             Test
 
           url: >-
             
 
+          external: true
           logo: ""
         - slug: "noesya"
-      elements:
-        - title: >-
-            Test
-          kind: "external"
-          url: ""
-        - title: >-
-            
-          kind: "osuny"
-          slug: "noesya"
-          url: "/fr/organisations/noesya/"
-          logo:
-            light_background: 
-              id: "fea25b8b-720b-4652-a486-49ec367ea6a2"
-        - title: >-
-            
-          kind: "external"
-          url: ""
-          logo: 
-            id: "35a17249-a60a-436c-b74b-03cab1535b4e"
+          external: false
 
 
   - kind: block
-    template: partners
+    template: organizations
     title: >-
       
     position: 4
+    ranks:
+      self: false
+      children: 3
     data:
       layout: grid
       description: >-
         
 
       with_link: false
-      partners:
+      organizations:
         - slug: "iut"
-      elements:
-        - title: >-
-            
-          kind: "osuny"
-          slug: "iut"
-          url: "/fr/organisations/iut/"
-          logo:
-            light_background: 
-              id: "bb0d8914-cb5f-45e7-adfa-f85c19205920"
+          external: false
 
 
   - kind: block
@@ -163,6 +157,8 @@ contents:
     title: >-
       
     position: 5
+    ranks:
+      self: false
     data:
       text: >-
         
@@ -184,6 +180,8 @@ contents:
     title: >-
       
     position: 6
+    ranks:
+      self: false
     data:
       text: >-
         
@@ -205,6 +203,8 @@ contents:
     title: >-
       
     position: 7
+    ranks:
+      self: false
     data:
       url: >-
         https://vimeo.com/715280780
@@ -213,7 +213,19 @@ contents:
         
 
       video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
+        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title="Video"></iframe>
+      video: 
+        platform: "vimeo"
+        identifier: "715280780"
+        title: "Video"
+        poster: >-
+          https://vumbnail.com/715280780.jpg
+        embed: >-
+          https://player.vimeo.com/video/715280780
+        embed_with_defaults: >-
+          https://player.vimeo.com/video/715280780?autoplay=1&amp;quality=360p
+        iframe: >-
+          <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title="Video"></iframe>
       transcription: >-
         
 
@@ -224,6 +236,8 @@ contents:
     title: >-
       
     position: 8
+    ranks:
+      self: false
     data:
       url: >-
         https://vimeo.com/715280780
@@ -232,7 +246,19 @@ contents:
         
 
       video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title=""></iframe>
+        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title="Video"></iframe>
+      video: 
+        platform: "vimeo"
+        identifier: "715280780"
+        title: "Video"
+        poster: >-
+          https://vumbnail.com/715280780.jpg
+        embed: >-
+          https://player.vimeo.com/video/715280780
+        embed_with_defaults: >-
+          https://player.vimeo.com/video/715280780?autoplay=1&amp;quality=360p
+        iframe: >-
+          <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/715280780" title="Video"></iframe>
       transcription: >-
         
 
@@ -243,12 +269,14 @@ contents:
     title: >-
       
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       
     position: 1
+    ranks:
+      self: false
     data:
       code: >-
         <form id="sb_form"

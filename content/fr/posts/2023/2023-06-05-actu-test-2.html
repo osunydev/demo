@@ -1,8 +1,18 @@
 ---
 title: "Actu test"
 date: "2023-06-05T00:00:00+02:00"
-url: "/fr/actualites/2023-06-05-actu-test-2/"
+breadcrumbs:
+  - title: "Index"
+    path: "/fr/"
+  - title: "Diplômes"
+    path: "/fr/diplomes/"
+  - title: "Actualités renommées"
+    path: "/fr/diplomes/actualites/"
+  - title: "Actu test"
+url: "/fr/diplomes/actualites/2023-06-05-actu-test-2/"
 slug: "actu-test-2"
+aliases:
+  - /fr/actualites/2023-06-05-actu-test-2/
 
 full_width: false
 design:
@@ -14,6 +24,7 @@ design:
 weight: 1
 authors:
   - "pierre-andre-boissinot-1"
+
 translation_key: communication-website-post-bcb916a3-f40b-4a34-b157-ed4be46a77ee
 
 
@@ -37,6 +48,8 @@ contents:
     title: >-
       
     position: 4
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -59,6 +72,8 @@ contents:
     title: >-
       
     position: 5
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -76,12 +91,14 @@ contents:
     title: >-
       Pandas
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: image
     title: >-
       Pandas
     position: 1
+    ranks:
+      self: 3
     data:
       text: >-
         
@@ -99,51 +116,40 @@ contents:
 
 
   - kind: block
-    template: partners
+    template: organizations
     title: >-
       
     position: 2
+    ranks:
+      self: false
+      children: 3
     data:
       layout: map
       description: >-
         
 
       with_link: false
-      partners:
+      organizations:
         - slug: "iut"
+          external: false
         - slug: "noesya"
-      elements:
-        - title: >-
-            
-          kind: "osuny"
-          slug: "iut"
-          url: "/fr/organisations/iut/"
-          logo:
-            light_background: 
-              id: "bb0d8914-cb5f-45e7-adfa-f85c19205920"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "noesya"
-          url: "/fr/organisations/noesya/"
-          logo:
-            light_background: 
-              id: "fea25b8b-720b-4652-a486-49ec367ea6a2"
+          external: false
 
 
   - kind: block
-    template: partners
+    template: organizations
     title: >-
       
     position: 3
+    ranks:
+      self: false
     data:
       layout: grid
       description: >-
         
 
       with_link: false
-      partners:
-      elements:
+      organizations:
 
 
   - kind: block
@@ -151,6 +157,8 @@ contents:
     title: >-
       
     position: 4
+    ranks:
+      self: false
     data:
       type: creative_commons
       creative_commons:
@@ -169,6 +177,8 @@ contents:
     title: >-
       
     position: 5
+    ranks:
+      self: false
     data:
       type: creative_commons
       creative_commons:
@@ -187,6 +197,8 @@ contents:
     title: >-
       
     position: 6
+    ranks:
+      self: false
     data:
       type: creative_commons
       creative_commons:
