@@ -1,7 +1,10 @@
 ---
-title: >
-  Page de test
+title: "Page de test"
 breadcrumb_title: "Page de test"
+breadcrumbs:
+  - title: "Index"
+    path: "/fr/"
+  - title: "Page de test"
 url: "/fr/page-de-test/"
 slug: "page-de-test"
 aliases:
@@ -42,6 +45,9 @@ contents:
     title: >-
       
     position: 1
+    ranks:
+      self: false
+      children: 2
     data:
       layout: horizontal
       events:
@@ -54,10 +60,13 @@ contents:
 
 
   - kind: block
-    template: organization_chart
+    template: persons
     title: >-
       
     position: 2
+    ranks:
+      self: false
+      children: 2
     data:
       description: >-
         
@@ -66,96 +75,45 @@ contents:
       with_photo: false
       persons:
         - slug: "pierre-andre-boissinot"
+          external: false
           role: >-
             
 
         - slug: "aurelie-carimentrand"
+          external: false
           role: >-
             
 
         - slug: "marlene-dulaurans"
+          external: false
           role: >-
             
 
         - slug: "sebastien-gaya"
+          external: false
           role: >-
             
 
         - slug: "sebastien-gaya-2"
+          external: false
           role: >-
             
 
         - slug: "arnaud-levy"
+          external: false
           role: >-
             
 
         - slug: "sebastien-moulene"
+          external: false
           role: >-
             
 
         - slug: "olivia-simonet"
+          external: false
           role: >-
             
 
-      elements:
-        - title: >-
-            Pierre-André Boissinot
-          summary: >-
-            
-          kind: "osuny"
-          slug: "pierre-andre-boissinot"
-          url: "/fr/equipe/pierre-andre-boissinot/"
-        - title: >-
-            Aurélie Carimentrand
-          summary: >-
-            
-          kind: "osuny"
-          slug: "aurelie-carimentrand"
-          url: "/fr/equipe/aurelie-carimentrand/"
-        - title: >-
-            Marlène Dulaurans
-          summary: >-
-            
-          kind: "osuny"
-          slug: "marlene-dulaurans"
-          url: "/fr/equipe/marlene-dulaurans/"
-        - title: >-
-            Sébastien Gaya
-          summary: >-
-            
-          kind: "osuny"
-          slug: "sebastien-gaya"
-          url: "/fr/equipe/sebastien-gaya/"
-        - title: >-
-            Sébastien Gaya
-          summary: >-
-            
-          kind: "osuny"
-          slug: "sebastien-gaya-2"
-          url: "/fr/equipe/sebastien-gaya-2/"
-        - title: >-
-            Arnaud Levy
-          summary: >-
-            Co-fondateur noesya
-          kind: "osuny"
-          slug: "arnaud-levy"
-          url: "/fr/equipe/arnaud-levy/"
-        - title: >-
-            Sebastien Moulène
-          summary: >-
-            Résumé
-            
-            saut
-          kind: "osuny"
-          slug: "sebastien-moulene"
-          url: "/fr/equipe/sebastien-moulene/"
-        - title: >-
-            Olivia Simonet
-          summary: >-
-            
-          kind: "osuny"
-          slug: "olivia-simonet"
-          url: "/fr/equipe/olivia-simonet/"
 
 
   - kind: block
@@ -163,6 +121,8 @@ contents:
     title: >-
       Un titre
     position: 3
+    ranks:
+      self: 2
     data:
       layout: no_background
       text: >-
@@ -185,6 +145,8 @@ contents:
     title: >-
       
     position: 4
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
