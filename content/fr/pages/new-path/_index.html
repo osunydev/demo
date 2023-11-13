@@ -66,20 +66,39 @@ description_short: >
 header_text: >-
   Test des composants
 contents_reading_time:
-  seconds: 168
+  seconds: 489
   text: >-
-    3 minutes
+    8 minutes
 contents:
+  - kind: block
+    template: posts
+    title: >-
+      Bloc actualités
+    position: 0
+    ranks:
+      self: 2
+      children: 3
+    data:
+      all: true
+      layout: grid
+      posts:
+        - "2023/2023-06-05-actu-test-2"
+        - "2023/2023-06-05-actu-test-1"
+        - "2022/2022-11-28-actu-test"
+
+
   - kind: heading
     title: >-
       Partie 1
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: key_figures
     title: >-
       Bloc key figure
     position: 0
+    ranks:
+      self: 3
     data:
       description: >-
         
@@ -102,24 +121,13 @@ contents:
 
 
   - kind: block
-    template: posts
-    title: >-
-      Bloc actualités
-    position: 1
-    data:
-      all: true
-      layout: grid
-      posts:
-        - "2023/2023-06-05-actu-test-2"
-        - "2023/2023-06-05-actu-test-1"
-        - "2022/2022-11-28-actu-test"
-
-
-  - kind: block
     template: features
     title: >-
       
-    position: 2
+    position: 1
+    ranks:
+      self: false
+      children: 3
     data:
       description: >-
         
@@ -144,7 +152,9 @@ contents:
     template: datatable
     title: >-
       Bloc datatable
-    position: 3
+    position: 2
+    ranks:
+      self: 3
     data:
       description: >-
         
@@ -171,7 +181,10 @@ contents:
     template: timeline
     title: >-
       Bloc frise chronologique
-    position: 4
+    position: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: vertical
       events:
@@ -199,7 +212,9 @@ contents:
     template: embed
     title: >-
       Un bloc embed
-    position: 5
+    position: 4
+    ranks:
+      self: 3
     data:
       code: >-
         <span class="color: red;">un texte en rouge normalement</span>
@@ -213,7 +228,9 @@ contents:
     template: definitions
     title: >-
       Un bloc définitions
-    position: 6
+    position: 5
+    ranks:
+      self: 3
     data:
       description: >-
         
@@ -243,7 +260,9 @@ contents:
     template: video
     title: >-
       Bloc vidéo
-    position: 7
+    position: 6
+    ranks:
+      self: 3
     data:
       url: >-
         https://www.youtube.com/watch?v=hPXQH6gOuJM
@@ -274,7 +293,9 @@ contents:
     template: image
     title: >-
       Un bloc image
-    position: 8
+    position: 7
+    ranks:
+      self: 3
     data:
       text: >-
         <p>Lorem ipsum bloc image</p>
@@ -296,15 +317,18 @@ contents:
     title: >-
       Partie 2
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       Bloc actualités
     position: 0
+    ranks:
+      self: 3
+      children: 4
     data:
       all: true
-      layout: grid
+      layout: list
       posts:
         - "2023/2023-06-05-actu-test-2"
         - "2023/2023-06-05-actu-test-1"
@@ -316,6 +340,8 @@ contents:
     title: >-
       
     position: 1
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -334,6 +360,8 @@ contents:
     title: >-
       
     position: 2
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -356,6 +384,8 @@ contents:
     title: >-
       
     position: 3
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -407,6 +437,9 @@ contents:
     title: >-
       Bloc partenaires
     position: 4
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       description: >-
@@ -431,14 +464,16 @@ contents:
     title: >-
       Un bloc galerie
     position: 5
+    ranks:
+      self: 3
     data:
       description: >-
         
 
       layout: grid
       images:
-        - id: "0eeef367-13ed-464a-8f57-efb921a2adaf"
-          file: "0eeef367-13ed-464a-8f57-efb921a2adaf"
+        - id: "dd264d72-bbc1-4777-97d7-6b74cbf9d924"
+          file: "dd264d72-bbc1-4777-97d7-6b74cbf9d924"
 
           alt: >-
             Un texte alt
@@ -480,12 +515,14 @@ contents:
     title: >-
       Un bloc files
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: files
     title: >-
       Un bloc files
     position: 0
+    ranks:
+      self: 3
     data:
       description: >-
         
@@ -504,6 +541,9 @@ contents:
     title: >-
       
     position: 1
+    ranks:
+      self: false
+      children: 3
     data:
       description: >-
         <p>Description</p>
@@ -547,7 +587,297 @@ contents:
     template: chapter
     title: >-
       
+    position: 1
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
     position: 2
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 2
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 3
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 3
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 4
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 5
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 6
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 7
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 8
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 9
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 10
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 11
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -570,12 +900,15 @@ contents:
     title: >-
       Sous-partie 1
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: persons
     title: >-
       Bloc organigramme
     position: 0
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         
@@ -600,6 +933,8 @@ contents:
     title: >-
       Actualités catégorie
     position: 1
+    ranks:
+      self: 3
     data:
       category: "/offre-de-formation/css/"
       layout: grid
@@ -611,6 +946,8 @@ contents:
     title: >-
       Page spécifique
     position: 2
+    ranks:
+      self: 3
     data:
       page: 
         path: "/fr/equipe/"
@@ -628,6 +965,9 @@ contents:
     title: >-
       Actualités sélection
     position: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       posts:
@@ -640,6 +980,9 @@ contents:
     title: >-
       
     position: 4
+    ranks:
+      self: false
+      children: 3
     data:
       page: 
         path: "/fr/"
@@ -669,6 +1012,8 @@ contents:
     title: >-
       Un bloc chapter
     position: 5
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -694,6 +1039,8 @@ contents:
     title: >-
       Bloc de témoignages
     position: 6
+    ranks:
+      self: 3
     data:
       testimonials:
         - text: >-
@@ -736,6 +1083,8 @@ contents:
     title: >-
       Bloc CTA
     position: 7
+    ranks:
+      self: 3
     data:
       text: >-
         <p>Lorem ipsum cta</p>
@@ -782,6 +1131,8 @@ contents:
     title: >-
       
     position: 8
+    ranks:
+      self: false
     data:
       code: >-
         <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.777832031250002%2C38.53097889440024%2C16.413574218750004%2C53.370220573956786&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=6/46.453/3.318">Afficher une carte plus grande</a></small>
@@ -796,6 +1147,9 @@ contents:
     title: >-
       
     position: 9
+    ranks:
+      self: false
+      children: 3
     data:
       programs:
         - path: "/ruby-on-rails/"
@@ -807,18 +1161,208 @@ contents:
     title: >-
       agenda
     position: 10
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       description: >-
         
 
+      mode: all
+      show_summary: false
+      show_category: false
+      show_status: false
+
       events:
-        - path: "/fr/agenda/2023-09-12-event-de-test-1/"
-          file: "content/fr/events/2023-02-08-event-de-test-1.html"
-        - path: "/fr/agenda/2023-05-01-vieil-evenement/"
-          file: "content/fr/events/archives/2023/2023-05-01-vieil-evenement.html"
         - path: ""
-          file: "content/fr/events/archives/2023/2023-09-08-titre.html"
+          file: "content/fr/events/2023-11-09-event-en-cours-hors-les-murs.html"
+        - path: "/fr/agenda/2023-10-04-test/"
+          file: "content/fr/events/2023-10-04-test.html"
+        - path: "/fr/agenda/2023-09-12-event-de-test-1/"
+          file: "content/fr/events/2023-02-08-event-en-cours.html"
+
+
+  - kind: block
+    template: programs
+    title: >-
+      
+    position: 11
+    ranks:
+      self: false
+      children: 3
+    data:
+      programs:
+        - path: "/ruby-on-rails/"
+        - path: "/css/"
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 12
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 13
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 14
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 15
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 16
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 17
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    position: 18
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem &amp; ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac finibus lectus. Phasellus imperdiet rutrum enim quis commodo. Nam consequat venenatis consectetur. Nullam ornare velit vitae lobortis accumsan. Donec at lectus at enim imperdiet mollis. Pellentesque non neque sit amet purus mollis ultrices. Donec magna risus, laoreet quis pretium nec, elementum at erat. Ut quis diam consectetur, scelerisque felis eu, commodo purus. Curabitur ac consectetur risus.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
 
 
 

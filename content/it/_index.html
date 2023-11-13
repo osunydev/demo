@@ -1,7 +1,8 @@
 ---
-title: >
-  Accueil
+title: "Accueil"
 breadcrumb_title: "Index"
+breadcrumbs:
+  - title: "Accueil"
 url: "/it/"
 
 full_width: true
@@ -18,13 +19,13 @@ translation_key: communication-website-page-b12b020e-e7ad-4b3a-a903-1c73babcd1ad
 bodyclass: 
 
 children:
-  - /it/actualites/
-  - /it/diplomes/
-  - /it/formations/
-  - /it/organisations/
-  - /it/equipe/
-  - /it/publications/
-  - /it/agenda/
+  - "content/it/posts/_index.html"
+  - "content/it/diplomas/_index.html"
+  - "content/it/programs/_index.html"
+  - "content/it/organizations/_index.html"
+  - "content/it/persons/_index.html"
+  - "content/it/publications/_index.html"
+  - "content/it/events/_index.html"
 meta_description: >
   
 description: >
@@ -47,6 +48,8 @@ contents:
     title: >-
       Chapitre 1
     position: 1
+    ranks:
+      self: 2
     data:
       layout: no_background
       text: >-
@@ -65,10 +68,13 @@ contents:
 
 
   - kind: block
-    template: organization_chart
+    template: persons
     title: >-
       
     position: 2
+    ranks:
+      self: false
+      children: 2
     data:
       description: >-
         
@@ -77,17 +83,10 @@ contents:
       with_photo: false
       persons:
         - slug: "olivia-simonet"
+          external: false
           role: >-
             
 
-      elements:
-        - title: >-
-            Olivia Simonet
-          summary: >-
-            
-          kind: "osuny"
-          slug: "olivia-simonet"
-          url: "/it/equipe/olivia-simonet/"
 
 
   - kind: block
@@ -95,11 +94,12 @@ contents:
     title: >-
       
     position: 3
+    ranks:
+      self: false
     data:
       all: true
       layout: grid
       posts:
-      elements:
 
 
   - kind: block
@@ -107,11 +107,12 @@ contents:
     title: >-
       
     position: 4
+    ranks:
+      self: false
     data:
       all: true
       layout: grid
       posts:
-      elements:
 
 
   - kind: block
@@ -119,13 +120,14 @@ contents:
     title: >-
       
     position: 5
+    ranks:
+      self: false
     data:
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: grid
       pages:
-      elements:
 
 
 

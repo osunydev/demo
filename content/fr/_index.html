@@ -3,8 +3,7 @@ title: "Accueil"
 breadcrumb_title: "Index"
 breadcrumbs:
   - title: "Accueil"
-url: "/accueil/"
-slug: "accueil"
+url: "/fr/"
 
 full_width: true
 design:
@@ -20,13 +19,18 @@ translation_key: communication-website-page-b12b020e-e7ad-4b3a-a903-1c73babcd1ad
 bodyclass: 
 
 children:
-  - "content/fr/posts/_index.html"
-  - "content/fr/programs/_index.html"
-  - "content/fr/pages/accueil/page-avec-composants/_index.html"
-  - "content/fr/persons/_index.html"
-  - "content/fr/organizations/_index.html"
   - "content/fr/diplomas/_index.html"
-  - "content/fr/pages/accueil/page-de-test/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/programs/_index.html"
+  - "content/fr/organizations/_index.html"
+  - "content/fr/pages/new-path/_index.html"
+  - "content/fr/pages/page-de-test/_index.html"
+  - "content/fr/publications/_index.html"
+  - "content/fr/events/_index.html"
+  - "content/fr/pages/test-1/_index.html"
+  - "content/fr/pages/page-avec-un-titre-orthographie-n-importe-comment/_index.html"
+  - "content/fr/pages/test-2/_index.html"
+  - "content/fr/pages/tests-bloc-agenda/_index.html"
 meta_description: >
   
 description: >
@@ -40,20 +44,139 @@ description_short: >
 header_text: >-
   Welcome here!
 contents_reading_time:
-  seconds: 2
+  seconds: 29
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: posts
+    title: >-
+      
+    position: 3
+    ranks:
+      self: false
+      children: 2
+    data:
+      all: true
+      layout: grid
+      posts:
+        - "2023/2023-06-05-actu-test-2"
+        - "2023/2023-06-05-actu-test-1"
+        - "2022/2022-11-28-actu-test"
+
+
+  - kind: block
+    template: posts
+    title: >-
+      
+    position: 4
+    ranks:
+      self: false
+      children: 2
+    data:
+      layout: grid
+      posts:
+        - "2023/2023-06-05-actu-test-2"
+        - "2023/2023-06-05-actu-test-1"
+        - "2022/2022-11-28-actu-test"
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    position: 5
+    ranks:
+      self: false
+      children: 2
+    data:
+      page: 
+        path: "/fr/"
+        slug: ""
+        file: "content/fr/_index.html"
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/diplomes/"
+          slug: "diplomes"
+          file: "content/fr/diplomas/_index.html"
+          external: false
+        - path: "/fr/accessibilite/"
+          slug: "accessibilite"
+          file: "content/fr/pages/accessibilite/_index.html"
+          external: false
+        - path: "/fr/equipe/"
+          slug: "equipe"
+          file: "content/fr/persons/_index.html"
+          external: false
+        - path: "/fr/offre-de-formation/"
+          slug: "offre-de-formation"
+          file: "content/fr/programs/_index.html"
+          external: false
+        - path: "/fr/mentions-legales/"
+          slug: "mentions-legales"
+          file: "content/fr/pages/mentions-legales/_index.html"
+          external: false
+        - path: "/fr/organisations/"
+          slug: "organisations"
+          file: "content/fr/organizations/_index.html"
+          external: false
+        - path: "/fr/new-path/"
+          slug: "new-path"
+          file: "content/fr/pages/new-path/_index.html"
+          external: false
+        - path: "/fr/page-de-test/"
+          slug: "page-de-test"
+          file: "content/fr/pages/page-de-test/_index.html"
+          external: false
+        - path: "/fr/plan-du-site/"
+          slug: "plan-du-site"
+          file: "content/fr/pages/plan-du-site/_index.html"
+          external: false
+        - path: "/fr/politique-de-confidentialite/"
+          slug: "politique-de-confidentialite"
+          file: "content/fr/pages/politique-de-confidentialite/_index.html"
+          external: false
+        - path: "/fr/publications/"
+          slug: "publications"
+          file: "content/fr/publications/_index.html"
+          external: false
+        - path: "/fr/agenda/"
+          slug: "agenda"
+          file: "content/fr/events/_index.html"
+          external: false
+        - path: "/fr/test-1/"
+          slug: "test-1"
+          file: "content/fr/pages/test-1/_index.html"
+          external: false
+        - path: "/fr/page-avec-un-titre-orthographie-n-importe-comment/"
+          slug: "page-avec-un-titre-orthographie-n-importe-comment"
+          file: "content/fr/pages/page-avec-un-titre-orthographie-n-importe-comment/_index.html"
+          external: false
+        - path: "/fr/test-2/"
+          slug: "test-2"
+          file: "content/fr/pages/test-2/_index.html"
+          external: false
+        - path: "/fr/tests-bloc-agenda/"
+          slug: "tests-bloc-agenda"
+          file: "content/fr/pages/tests-bloc-agenda/_index.html"
+          external: false
+
+
   - kind: heading
     title: >-
       Chapitre 1
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
-      
+      Chapitre 1
     position: 1
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -68,6 +191,260 @@ contents:
 
       credit: >-
         
+
+
+
+  - kind: block
+    template: persons
+    title: >-
+      
+    position: 2
+    ranks:
+      self: false
+      children: 3
+    data:
+      description: >-
+        
+
+      with_link: false
+      with_photo: false
+      persons:
+        - slug: "olivia-simonet"
+          external: false
+          role: >-
+            
+
+
+
+  - kind: block
+    template: image
+    title: >-
+      
+    position: 3
+    ranks:
+      self: false
+    data:
+      text: >-
+        
+
+
+        alt: >-
+          
+
+        credit: >-
+          
+
+
+
+  - kind: block
+    template: gallery
+    title: >-
+      
+    position: 4
+    ranks:
+      self: false
+    data:
+      description: >-
+        
+
+      layout: grid
+      images:
+        - id: "a6a66d2a-e509-4384-b294-3f8bf5633006"
+          file: "a6a66d2a-e509-4384-b294-3f8bf5633006"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "5384cec1-6d67-48d5-98b3-49aab8736bf2"
+          file: "5384cec1-6d67-48d5-98b3-49aab8736bf2"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "44a3c686-1545-4eb3-bb10-46f4f31f9bbf"
+          file: "44a3c686-1545-4eb3-bb10-46f4f31f9bbf"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "14547710-f0f5-442d-b8ad-7f591419ffcc"
+          file: "14547710-f0f5-442d-b8ad-7f591419ffcc"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "a2ca81d2-39c0-4d3d-af99-ce00d6a1c832"
+          file: "a2ca81d2-39c0-4d3d-af99-ce00d6a1c832"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "200ef67e-3e64-4186-8a3b-069bd7e9a6d9"
+          file: "200ef67e-3e64-4186-8a3b-069bd7e9a6d9"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "8e0942f0-67dd-4b7c-8906-adfca9be42be"
+          file: "8e0942f0-67dd-4b7c-8906-adfca9be42be"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "35fdafc0-0297-4338-9e85-1318095901d3"
+          file: "35fdafc0-0297-4338-9e85-1318095901d3"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "4a6b9c50-3326-4316-9a9c-097ce8e8b1d7"
+          file: "4a6b9c50-3326-4316-9a9c-097ce8e8b1d7"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+        - id: "e625330c-552b-4828-948d-829e71884a36"
+          file: "e625330c-552b-4828-948d-829e71884a36"
+
+          alt: >-
+            
+
+          credit: >-
+            
+
+          text: >-
+            
+
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      
+    position: 5
+    ranks:
+      self: false
+      children: 3
+    data:
+      layout: grid
+      description: >-
+        
+
+      mode: selection
+      show_summary: true
+      show_category: true
+      show_status: false
+
+      events:
+        - path: "/fr/agenda/2023-09-12-event-de-test-1/"
+          file: "content/fr/events/2023-02-08-event-en-cours.html"
+        - path: "/fr/agenda/2023-05-01-vieil-evenement/"
+          file: "content/fr/events/2023-05-01-event-en-cours-sans-date-de-fin.html"
+        - path: ""
+          file: "content/fr/events/archives/2023/2023-09-08-event-termine.html"
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Voies de recours
+    position: 6
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p>Si vous avez signalé au responsable du site internet un défaut d’accessibilité qui vous empêche d’accéder à un contenu ou à un des services du portail et n’avez pas obtenu de réponse satisfaisante, vous êtes en droit de :</p><p><b></b></p><ul> <li><p><a href="https://formulaire.defenseurdesdroits.fr/">Écrire un message au Défenseur des droits</a> (formulaire en ligne) ;</p></li> <li><p>Contacter le <a href="https://www.defenseurdesdroits.fr/saisir/delegues">délégué du Défenseur des droits dans votre région</a> ;</p></li> <li><p>Envoyer un courrier postal (gratuit, ne pas mettre de timbre) à cette adresse : Défenseur des droits - Libre réponse 71120 - 75342 Paris CEDEX 07.</p></li> </ul>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: files
+    title: >-
+      
+    position: 7
+    ranks:
+      self: false
+    data:
+      description: >-
+        
+
+      files:
+        - id: "73ca4235-e841-4820-81da-bdf945428b9b"
+          file: "73ca4235-e841-4820-81da-bdf945428b9b"
+
+          title: >-
+            Schéma pluriannuel d’accessibilité 2022-2023 (pdf - TAILLE)
+
+        - id: "99575cb7-b998-4d02-bb93-fe64cfe2fd96"
+          file: "99575cb7-b998-4d02-bb93-fe64cfe2fd96"
+
+          title: >-
+            Plan annuel d’accessibilité 2022 (pdf - TAILLE)
 
 
 

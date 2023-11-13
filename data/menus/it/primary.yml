@@ -1,0 +1,32 @@
+---
+title: Main menu
+items:
+- title: Actualités
+  target: "/it/actualites/"
+  kind: page
+  children: []
+- title: Diplômes
+  target: "/it/diplomes/"
+  kind: page
+  children: []
+- title: Formations
+  target: "/it/formations/"
+  kind: page
+  children: []
+- title: Organisations
+  target: "/it/organisations/"
+  kind: page
+  children: []
+- title: Équipe
+  target: "/it/equipe/"
+  kind: page
+  children: []
+- title: Publications HAL
+  target: "/it/publications/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/it/agenda/"
+  kind: page
+  children: []
+
