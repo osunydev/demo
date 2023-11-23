@@ -4,7 +4,8 @@ breadcrumb_title: "Page avec composants"
 breadcrumbs:
   - title: "Index"
     path: "/accueil/"
-  - title: "Page avec composants"
+  - title: >-
+      Page avec composants
 url: "/accueil/page-avec-composants/"
 slug: "page-avec-composants"
 aliases:
@@ -44,12 +45,13 @@ contents:
     title: >-
       Bloc datatable
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: datatable
     title: >-
       
-    position: 3
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -68,12 +70,14 @@ contents:
     title: >-
       Bloc actualités
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
-    position: 13
+    ranks:
+      self: false
+      children: 3
     data:
       all: true
       layout: grid
@@ -88,12 +92,13 @@ contents:
     title: >-
       Un bloc embed
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       
-    position: 5
+    ranks:
+      self: false
     data:
       code: >-
         <span class="color: red;">un texte en rouge normalement</span>
@@ -108,12 +113,13 @@ contents:
     title: >-
       Un bloc chapter
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
-    position: 2
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -139,12 +145,14 @@ contents:
     title: >-
       Bloc frise chronologique
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: timeline
     title: >-
       
-    position: 15
+    ranks:
+      self: false
+      children: 3
     data:
       layout: vertical
       events:
@@ -173,12 +181,13 @@ contents:
     title: >-
       Bloc vidéo
     position: 5
-    level: 2
+    rank: 2
   - kind: block
     template: video
     title: >-
       
-    position: 16
+    ranks:
+      self: false
     data:
       url: >-
         https://www.youtube.com/watch?v=hPXQH6gOuJM
@@ -210,12 +219,13 @@ contents:
     title: >-
       Actualités catégorie
     position: 6
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
-    position: 17
+    ranks:
+      self: false
     data:
       category: "/offre-de-formation/css/"
       layout: grid
@@ -227,12 +237,13 @@ contents:
     title: >-
       Actualités sélection
     position: 7
-    level: 2
+    rank: 2
   - kind: block
     template: call_to_action
     title: >-
       Bloc CTA
-    position: 1
+    ranks:
+      self: 3
     data:
       text: >-
         <p>Lorem ipsum cta</p>
@@ -278,7 +289,9 @@ contents:
     template: posts
     title: >-
       
-    position: 18
+    ranks:
+      self: false
+      children: 3
     data:
       layout: grid
       posts:
@@ -290,12 +303,13 @@ contents:
     title: >-
       Un bloc files
     position: 8
-    level: 2
+    rank: 2
   - kind: block
     template: files
     title: >-
       
-    position: 6
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -314,12 +328,13 @@ contents:
     title: >-
       Bloc key figure
     position: 9
-    level: 2
+    rank: 2
   - kind: block
     template: key_figures
     title: >-
       
-    position: 9
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -346,12 +361,14 @@ contents:
     title: >-
       Bloc organigramme
     position: 10
-    level: 2
+    rank: 2
   - kind: block
     template: persons
     title: >-
       
-    position: 10
+    ranks:
+      self: false
+      children: 3
     data:
       description: >-
         
@@ -376,12 +393,13 @@ contents:
     title: >-
       Un bloc définitions
     position: 11
-    level: 2
+    rank: 2
   - kind: block
     template: definitions
     title: >-
       
-    position: 4
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -412,12 +430,13 @@ contents:
     title: >-
       Un bloc image
     position: 12
-    level: 2
+    rank: 2
   - kind: block
     template: image
     title: >-
       
-    position: 8
+    ranks:
+      self: false
     data:
       text: >-
         <p>Lorem ipsum bloc image</p>
@@ -437,8 +456,10 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
-    position: 12
+      Accueil
+    ranks:
+      self: 3
+      children: 4
     data:
       page: 
         path: "/accueil/"
@@ -468,12 +489,14 @@ contents:
     title: >-
       Bloc partenaires
     position: 13
-    level: 2
+    rank: 2
   - kind: block
     template: organizations
     title: >-
       
-    position: 11
+    ranks:
+      self: false
+      children: 3
     data:
       layout: grid
       description: >-
@@ -498,12 +521,14 @@ contents:
     title: >-
       Page spécifique
     position: 14
-    level: 2
+    rank: 2
   - kind: block
     template: pages
     title: >-
-      
-    position: 19
+      Équipe
+    ranks:
+      self: 3
+      children: 4
     data:
       page: 
         path: "/accueil/equipe/"
@@ -537,12 +562,13 @@ contents:
     title: >-
       Bloc de témoignages
     position: 15
-    level: 2
+    rank: 2
   - kind: block
     template: testimonials
     title: >-
       
-    position: 14
+    ranks:
+      self: false
     data:
       testimonials:
         - text: >-
@@ -585,12 +611,13 @@ contents:
     title: >-
       Un bloc galerie
     position: 16
-    level: 2
+    rank: 2
   - kind: block
     template: gallery
     title: >-
       
-    position: 7
+    ranks:
+      self: false
     data:
       description: >-
         
