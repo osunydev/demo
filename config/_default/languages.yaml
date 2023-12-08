@@ -6,51 +6,21 @@ fr:
   languageCode: fr
   languageName: French
   permalinks:
-    categories: /diplomes/actualites/:slug/
-    posts: /diplomes/actualites/:year-:month-:day-:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    diplomas: /diplomes/:slug/
-    programs: /offre-de-formation/:slug/
-    publications: /publications/:year-:slug/
-    organizations: /organisations/:slug/
-    persons: /equipe/:slug/
-    administrators: /equipe/:slug/roles/
-    authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
-en:
-  title: Site de démo
-  contentDir: content/en
-  languageCode: en
-  languageName: English
-  permalinks:
-    categories: /actualites/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    diplomas: /diplomes/:slug/
-    programs: /formations/:slug/
-    publications: /publications/:year-:slug/
-    organizations: /organisations/:slug/
-    persons: /equipe/:slug/
-    administrators: /equipe/:slug/roles/
-    authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
-it:
-  title: Site de démo
-  contentDir: content/it
-  languageCode: it
-  languageName: Italiano
-  permalinks:
-    categories: /actualites/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    diplomas: /diplomes/:slug/
-    programs: /formations/:slug/
-    publications: /publications/:year-:slug/
-    organizations: /organisations/:slug/
-    persons: /equipe/:slug/
-    administrators: /equipe/:slug/roles/
-    authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
+    categories: /accueil/actualites/:slug/
+    posts: /accueil/actualites/:year-:month-:day-:slug/
+    diplomas: /accueil/diplomes/:slug/
+    programs: /accueil/offre-de-formation/:slug/
+    organizations: /accueil/organisations/:slug/
+    persons: /accueil/equipe/:slug/
+    authors: /accueil/equipe/:slug/actualites/
+    researchers: /accueil/equipe/:slug/publications/
+    teachers: /accueil/equipe/:slug/programs/
+  taxonomies:
+    administrator: administrators
+    author: authors
+    category: categories
+    posts_category: posts_categories
+    events_category: events_categories
+    diploma: diplomas
+    researcher: researchers
+    teacher: teachers
