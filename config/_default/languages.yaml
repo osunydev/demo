@@ -5,6 +5,8 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: French
+  params:
+    social:
   permalinks:
     posts: /accueil/actualites/:year-:month-:day-:slug/
     posts_categories: /accueil/actualites/:slug/

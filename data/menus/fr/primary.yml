@@ -29,4 +29,8 @@ items:
   target: "/accueil/page-de-test/"
   kind: page
   children: []
+- title: Campus
+  target: "/accueil/campus/"
+  kind: page
+  children: []
 
