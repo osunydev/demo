@@ -5,5 +5,5 @@ width: 200
 height: 200
 ratio: 1.0
 url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM2ZjlkNGJhLWIwOGMtNGI4My04MGFlLWJmNDg4NTg5MDI2OSIsInB1ciI6ImJsb2JfaWQifX0=--f6e4902471f9dd7780e73846d62d1995c39ede53/avatar.png
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/35v1rzwrdo3q96kj2aakfutzdfuw
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/35v1rzwrdo3q96kj2aakfutzdfuw?response-content-disposition=inline%3B+filename%3D%22avatar.png%22%3B+filename*%3DUTF-8%27%27avatar.png&response-content-type=image%2Fpng
 
