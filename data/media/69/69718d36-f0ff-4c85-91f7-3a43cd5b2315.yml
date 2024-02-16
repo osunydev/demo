@@ -5,5 +5,5 @@ width: 1080
 height: 1080
 ratio: 1.0
 url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjY5NzE4ZDM2LWYwZmYtNGM4NS05MWY3LTNhNDNjZDViMjMxNSIsInB1ciI6ImJsb2JfaWQifX0=--7a84f10837cd72745972653ea87d30b5f308846d/chouette-1080.png
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/xc5t1qk0j6xwzorog3w25vg8r0ml
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/xc5t1qk0j6xwzorog3w25vg8r0ml?response-content-disposition=inline%3B+filename%3D%22chouette-1080.png%22%3B+filename*%3DUTF-8%27%27chouette-1080.png&response-content-type=image%2Fpng
 
