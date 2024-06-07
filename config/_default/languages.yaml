@@ -14,9 +14,9 @@ fr:
     diplomas: /accueil/diplomes/:slug/
     programs: /accueil/offre-de-formation/:slug/
     organizations: /accueil/organisations/:slug/
-    organizations_categories: /accueil/organisations/:slug/
+    organizations_categories: /accueil/organisations/categories/:slug/
     persons: /accueil/equipe/:slug/
-    persons_categories: /accueil/equipe/:slug/
+    persons_categories: /accueil/equipe/categories/:slug/
     authors: /accueil/equipe/:slug/actualites/
     researchers: /accueil/equipe/:slug/publications/
     teachers: /accueil/equipe/:slug/programs/
