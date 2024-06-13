@@ -2,35 +2,39 @@
 title: Menu principal
 items:
 - title: Actualités
-  target: "/accueil/actualites/"
+  target: "/fr/accueil/actualites/"
   kind: page
   children: []
 - title: L'offre de formation
-  target: "/accueil/offre-de-formation/"
+  target: "/fr/accueil/offre-de-formation/"
   kind: page
   children: []
 - title: Page avec composants
-  target: "/accueil/page-avec-composants/"
+  target: "/fr/accueil/page-avec-composants/"
   kind: page
   children: []
 - title: Équipe
-  target: "/accueil/equipe/"
+  target: "/fr/accueil/equipe/"
   kind: page
   children: []
 - title: Organisations
-  target: "/accueil/organisations/"
+  target: "/fr/accueil/organisations/"
   kind: page
   children: []
 - title: Diplômes
-  target: "/accueil/diplomes/"
+  target: "/fr/accueil/diplomes/"
   kind: page
   children: []
 - title: Page de test
-  target: "/accueil/page-de-test/"
+  target: "/fr/accueil/page-de-test/"
   kind: page
   children: []
 - title: Campus
-  target: "/accueil/campus/"
+  target: "/fr/accueil/campus/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/fr/accueil/agenda/"
   kind: page
   children: []
 
