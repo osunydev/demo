@@ -1,8 +1,18 @@
 ---
-title: >
-  Accueil
-breadcrumb_title: "Index"
+title: >-
+  Home
+breadcrumb_title: >-
+  Index
 url: "/en/"
+hugo:
+  permalink: "/en/"
+  file: "content/en/_index.html"
+  path: "/en/"
+  slug: ""
+
+breadcrumbs:
+  - title: >-
+      Index
 
 full_width: true
 design:
@@ -13,30 +23,33 @@ design:
 
 position: 1
 weight: 1
-translation_key: communication-website-page-b12b020e-e7ad-4b3a-a903-1c73babcd1ad
+translationKey: communication-website-page-b12b020e-e7ad-4b3a-a903-1c73babcd1ad
 
-bodyclass: 
+bodyclass: >-
+  
+
 
 children:
-  - /en/actualites/
-  - /en/diplomes/
-  - /en/formations/
-  - /en/organisations/
-  - /en/equipe/
-  - /en/publications/
-  - /en/agenda/
-meta_description: >
+  - "posts/_index.html"
+  - "diplomas/_index.html"
+  - "programs/_index.html"
+  - "persons/_index.html"
+  - "events/_index.html"
+meta_description: >-
   
-description: >
+description: >-
   
 
-summary: >
-  
-description_short: >
+summary: >-
   
 
 header_text: >-
   Welcome here!
+header_cta:
+  display: false
+  label: >-
+    
+  target: ""
 contents_reading_time:
   seconds: 2
   text: >-
@@ -45,13 +58,15 @@ contents:
   - kind: heading
     title: >-
       Chapitre 1
-    position: 0
-    level: 2
+    slug: "chapitre-1"
+    position: 1
+    rank: 2
   - kind: block
     template: chapter
     title: >-
-      Chapitre 1
-    position: 1
+      
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -67,32 +82,6 @@ contents:
       credit: >-
         
 
-
-
-  - kind: block
-    template: organization_chart
-    title: >-
-      
-    position: 2
-    data:
-      description: >-
-        
-
-      with_link: false
-      with_photo: false
-      persons:
-        - slug: "olivia-simonet"
-          role: >-
-            
-
-      elements:
-        - title: >-
-            Olivia Simonet
-          summary: >-
-            
-          kind: "osuny"
-          slug: "olivia-simonet"
-          url: ""
 
 
 
