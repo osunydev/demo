@@ -15,6 +15,7 @@ fr:
     programs: /accueil/offre-de-formation/:slug/
     persons: /accueil/equipe/:slug/
     persons_categories: /accueil/equipe/categories/:slug/
+    administrators: /accueil/equipe/:slug/roles/
     authors: /accueil/equipe/:slug/actualites/
     researchers: /accueil/equipe/:slug/publications/
     teachers: /accueil/equipe/:slug/programs/
@@ -46,6 +47,7 @@ en:
     programs: /programs/:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
+    administrators: /team/:slug/roles/
     authors: /team/:slug/posts/
     researchers: /team/:slug/publications/
     teachers: /team/:slug/programs/
