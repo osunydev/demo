@@ -5,6 +5,6 @@ width: 1920
 height: 1080
 ratio: 1.7777777777777777
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjI0MzMzMTE0LTNlODktNGNmZC04ZDdkLTVhZjhlY2M5NWUzZiIsInB1ciI6ImJsb2JfaWQifX0=--451a40652b3678d627ea31853100fcec3c6148fb/fitore-f-Bl-UtVziFw0-unsplash-1920.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/8qu9d9vzydihi1efamka84ffqnr3
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjI0MzMzMTE0LTNlODktNGNmZC04ZDdkLTVhZjhlY2M5NWUzZiIsInB1ciI6ImJsb2JfaWQifX0=--fdb0a0b90718377a25a7d2685b7ba5ca7fa6c9fe/fitore-f-Bl-UtVziFw0-unsplash-1920.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/8qu9d9vzydihi1efamka84ffqnr3
 
