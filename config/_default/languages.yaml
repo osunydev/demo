@@ -5,7 +5,7 @@ fr:
     Site de démo
   contentDir: content/fr
   languageCode: fr
-  languageName: Français
+  languageName: French
   params:
     social:
   permalinks:
@@ -13,44 +13,13 @@ fr:
     posts_categories: /accueil/actualites/:slug/
     diplomas: /accueil/diplomes/:slug/
     programs: /accueil/offre-de-formation/:slug/
+    organizations: /accueil/organisations/:slug/
+    organizations_categories: /accueil/organisations/categories/:slug/
     persons: /accueil/equipe/:slug/
     persons_categories: /accueil/equipe/categories/:slug/
-    administrators: /accueil/equipe/:slug/roles/
     authors: /accueil/equipe/:slug/actualites/
     researchers: /accueil/equipe/:slug/publications/
     teachers: /accueil/equipe/:slug/programs/
-  taxonomies:
-    administrator: administrators
-    author: authors
-    diploma: diplomas
-    events_category: events_categories
-    location: locations
-    organizations_category: organizations_categories
-    persons_category: persons_categories
-    posts_category: posts_categories
-    projects_category: projects_categories
-    researcher: researchers
-    teacher: teachers
-    volume: volumes
-en:
-  title: >-
-    Site de démo
-  contentDir: content/en
-  languageCode: en
-  languageName: English
-  params:
-    social:
-  permalinks:
-    posts: /posts/:year-:month-:day-:slug/
-    posts_categories: /posts/:slug/
-    diplomas: /diplomas/:slug/
-    programs: /programs/:slug/
-    persons: /team/:slug/
-    persons_categories: /team/categories/:slug/
-    administrators: /team/:slug/roles/
-    authors: /team/:slug/posts/
-    researchers: /team/:slug/publications/
-    teachers: /team/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
