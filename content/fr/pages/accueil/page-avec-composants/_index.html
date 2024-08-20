@@ -37,8 +37,6 @@ bodyclass: >-
 
 meta_description: >-
   
-description: >-
-  
 
 summary: >-
   Test un peu long
@@ -96,13 +94,16 @@ contents:
       children: 3
     data:
       mode: all
-      hide_image: false
-      hide_summary: false
-      hide_category: false
-      hide_author: false
-      hide_date: false
       all: true
       layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
         - "2022/2022-11-28-actu-test"
         - "2022/2022-11-25-post-de-seb"
@@ -256,13 +257,16 @@ contents:
       self: false
     data:
       mode: category
-      hide_image: false
-      hide_summary: false
-      hide_category: false
-      hide_author: false
-      hide_date: false
       category: "/offre-de-formation/css/"
       layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
 
 
@@ -330,12 +334,15 @@ contents:
       children: 3
     data:
       mode: selection
-      hide_image: false
-      hide_summary: false
-      hide_category: false
-      hide_author: false
-      hide_date: false
       layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
         - "2021/2021-11-09-post-de-test"
 
@@ -420,8 +427,11 @@ contents:
       description: >-
         
 
-      with_link: false
-      with_photo: false
+      options:
+        image: true
+        summary: true
+        link: true
+
       persons:
         - slug: "pierre-andre-boissinot"
           role: >-
@@ -512,9 +522,11 @@ contents:
         path: "/accueil/"
         slug: "accueil"
         file: "pages/accueil/_index.html"
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: cards
       pages:
         - path: "/accueil/actualites/"
@@ -550,7 +562,11 @@ contents:
       description: >-
         
 
-      with_link: false
+      options:
+        link: true
+        logo: true
+        summary: false
+
       organizations:
         - slug: "organisation-test"
         - name: >-
@@ -582,9 +598,11 @@ contents:
         path: "/accueil/equipe/"
         slug: "equipe"
         file: "persons/_index.html"
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: list
       pages:
         - path: "/accueil/equipe/equipe-editoriale/"
