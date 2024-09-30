@@ -5,7 +5,7 @@ fr:
     Site de démo
   contentDir: content/fr
   languageCode: fr
-  languageName: French
+  languageName: Français
   params:
     social:
   permalinks:
