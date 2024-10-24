@@ -50,19 +50,15 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 55
+  seconds: 43
   text: >-
     1 minute
 contents:
-  - kind: heading
-    title: >-
-      Bloc datatable
-    slug: "bloc-datatable"
-    position: 1
-    rank: 2
   - kind: block
-    template: datatable
+    template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -70,28 +66,43 @@ contents:
       description: >-
         
 
-      columns: []
+      layout: grid
+      images:
+        - id: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
+          file: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
 
-      rows:
-      caption: >-
-        
+          alt: >-
+            Un texte alt
+
+          credit: >-
+            <p>crédit 1 gal</p>
+
+          text: >-
+            <p>Du texte image de gal 1</p>
+
+        - id: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
+          file: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
+
+          alt: >-
+            
+
+          credit: >-
+            <p>crédit 2 gal</p>
+
+          text: >-
+            <p>Du texte image de gal 2</p>
 
 
 
-
-  - kind: heading
-    title: >-
-      Bloc actualités
-    slug: "bloc-actualites"
-    position: 2
-    rank: 2
   - kind: block
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
-      children: 3
+      children: 2
     data:
       mode: all
       all: true
@@ -102,6 +113,7 @@ contents:
         date: false
         image: true
         reading_time: false
+        subtitle: true
         summary: true
 
       posts:
@@ -110,16 +122,11 @@ contents:
         - "2021/2021-11-09-post-de-test"
 
 
-
-  - kind: heading
-    title: >-
-      Un bloc embed
-    slug: "un-bloc-embed"
-    position: 3
-    rank: 2
   - kind: block
     template: embed
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -131,20 +138,15 @@ contents:
         
 
       transcription: >-
-        Une transcription du texte en rouge normalement
+        <p>Une transcription du texte en rouge normalement</p>
 
 
 
-
-  - kind: heading
-    title: >-
-      Un bloc chapter
-    slug: "un-bloc-chapter"
-    position: 4
-    rank: 2
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -168,20 +170,15 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Bloc frise chronologique
-    slug: "bloc-frise-chronologique"
-    position: 5
-    rank: 2
   - kind: block
     template: timeline
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
-      children: 3
+      children: 2
     data:
       layout: vertical
       events:
@@ -189,13 +186,13 @@ contents:
             800 - charlemagne empereur
 
           text: >-
-            Une description parce que c'est important
+            <p>Une description parce que c'est important </p>
 
         - title: >-
             Juste un titre
 
           text: >-
-            un événement sans date
+            <p>un événement sans date</p>
 
         - title: >-
             
@@ -205,25 +202,26 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Bloc vidéo
-    slug: "bloc-video"
-    position: 6
-    rank: 2
   - kind: block
     template: video
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
+      description: >-
+        
+
       url: >-
         https://www.youtube.com/watch?v=hPXQH6gOuJM
 
       video_title: >-
         
+
+      transcription: >-
+        <p>Une description textuelle ici</p>
 
       video_iframe: >-
         <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/hPXQH6gOuJM" title="Video"></iframe>
@@ -240,21 +238,13 @@ contents:
           https://www.youtube.com/embed/hPXQH6gOuJM?autoplay=1&amp;modestbranding=1&amp;rel=0
         iframe: >-
           <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/hPXQH6gOuJM" title="Video"></iframe>
-      transcription: >-
-        Une description textuelle ici
 
 
-
-
-  - kind: heading
-    title: >-
-      Actualités catégorie
-    slug: "actualites-categorie"
-    position: 7
-    rank: 2
   - kind: block
     template: posts
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -268,24 +258,20 @@ contents:
         date: false
         image: true
         reading_time: false
+        subtitle: true
         summary: true
 
       posts:
 
 
-
-  - kind: heading
-    title: >-
-      Actualités sélection
-    slug: "actualites-selection"
-    position: 8
-    rank: 2
   - kind: block
     template: call_to_action
     title: >-
       Bloc CTA
+    slug: >-
+      bloc-cta
     ranks:
-      self: 3
+      self: 2
     data:
       layout: accent_background
       text: >-
@@ -329,37 +315,75 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: testimonials
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
-      children: 3
     data:
-      mode: selection
-      layout: grid
-      options:
-        author: false
-        categories: false
-        date: false
-        image: true
-        reading_time: false
-        summary: true
+      testimonials:
+        - text: >-
+            <p>Un témoignage ici</p>
 
-      posts:
-        - "2021/2021-11-09-post-de-test"
+          author: >-
+            Autrice
+
+          job: >-
+            Métier de l'autrice
+
+          photo:
+            id: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
+            file: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
+
+        - text: >-
+            <p>Un 2e témoignage ici</p>
+
+          author: >-
+            auteur sans photo
+
+          job: >-
+            métier auteur
+
+
+        - text: >-
+            
+
+          author: >-
+            
+
+          job: >-
+            
 
 
 
-  - kind: heading
+
+  - kind: block
+    template: datatable
     title: >-
-      Un bloc files
-    slug: "un-bloc-files"
-    position: 9
-    rank: 2
+      
+    slug: >-
+      
+    ranks:
+      self: false
+    data:
+      description: >-
+        
+
+      columns: []
+
+      rows:
+      caption: >-
+        
+
+
+
   - kind: block
     template: files
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -376,16 +400,11 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Bloc key figure
-    slug: "bloc-key-figure"
-    position: 10
-    rank: 2
   - kind: block
     template: key_figures
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -412,20 +431,15 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Bloc organigramme
-    slug: "bloc-organigramme"
-    position: 11
-    rank: 2
   - kind: block
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
-      children: 3
+      children: 2
     data:
       description: >-
         
@@ -446,16 +460,11 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Un bloc définitions
-    slug: "un-bloc-definitions"
-    position: 12
-    rank: 2
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -468,13 +477,13 @@ contents:
             Une def remplie 1
 
           description: >-
-            Texte def remplie 1
+            <p>Texte def remplie 1</p>
 
         - title: >-
             Une def remplie 2
 
           description: >-
-            Texte def remplie 2
+            <p>Texte def remplie 2</p>
 
         - title: >-
             
@@ -484,16 +493,11 @@ contents:
 
 
 
-
-  - kind: heading
-    title: >-
-      Un bloc image
-    slug: "un-bloc-image"
-    position: 13
-    rank: 2
   - kind: block
     template: image
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -514,52 +518,14 @@ contents:
 
 
   - kind: block
-    template: pages
-    title: >-
-      Accueil
-    ranks:
-      self: 3
-      children: 4
-    data:
-      page:
-        path: "/"
-        slug: ""
-        file: "_index.html"
-      options:
-        image: true
-        main_summary: true
-        summary: true
-
-      layout: cards
-      pages:
-        - path: "/actualites/"
-          slug: "actualites"
-          file: "posts/_index.html"
-          external: false
-        - path: "/equipe/"
-          slug: "equipe"
-          file: "persons/_index.html"
-          external: false
-        - path: "/accessibilite/"
-          slug: "accessibilite"
-          file: "pages/accessibilite/_index.html"
-          external: false
-
-
-
-  - kind: heading
-    title: >-
-      Bloc partenaires
-    slug: "bloc-partenaires"
-    position: 14
-    rank: 2
-  - kind: block
     template: organizations
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
-      children: 3
+      children: 2
     data:
       layout: grid
       description: >-
@@ -582,20 +548,15 @@ contents:
           external: true
 
 
-
-  - kind: heading
-    title: >-
-      Page spécifique
-    slug: "page-specifique"
-    position: 15
-    rank: 2
   - kind: block
     template: pages
     title: >-
-      Équipe
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 2
     data:
       page:
         path: "/equipe/"
@@ -626,100 +587,64 @@ contents:
           external: false
 
 
-
-  - kind: heading
-    title: >-
-      Bloc de témoignages
-    slug: "bloc-de-temoignages"
-    position: 16
-    rank: 2
   - kind: block
-    template: testimonials
+    template: posts
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
+      children: 2
     data:
-      testimonials:
-        - text: >-
-            Un témoignage ici
-
-          author: >-
-            Autrice
-
-          job: >-
-            Métier de l'autrice
-
-          photo:
-            id: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
-            file: "e4c0a1c6-6f1f-437f-bb3d-1c85a8e67e1d"
-
-        - text: >-
-            Un 2e témoignage ici
-
-          author: >-
-            auteur sans photo
-
-          job: >-
-            métier auteur
-
-
-        - text: >-
-            
-
-          author: >-
-            
-
-          job: >-
-            
-
-
-
-
-
-  - kind: heading
-    title: >-
-      Un bloc galerie
-    slug: "un-bloc-galerie"
-    position: 17
-    rank: 2
-  - kind: block
-    template: gallery
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      description: >-
-        
-
+      mode: selection
       layout: grid
-      images:
-        - id: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
-          file: "658b6fe2-37fc-46cf-8f75-152f49bb8681"
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
 
-          alt: >-
-            Un texte alt
-
-          credit: >-
-            <p>crédit 1 gal</p>
-
-          text: >-
-            Du texte image de gal 1
-
-        - id: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
-          file: "c6f9d4ba-b08c-4b83-80ae-bf4885890269"
-
-          alt: >-
-            
-
-          credit: >-
-            <p>crédit 2 gal</p>
-
-          text: >-
-            Du texte image de gal 2
+      posts:
+        - "2021/2021-11-09-post-de-test"
 
 
+  - kind: block
+    template: pages
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      page:
+        path: "/"
+        slug: ""
+        file: "_index.html"
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: cards
+      pages:
+        - path: "/actualites/"
+          slug: "actualites"
+          file: "posts/_index.html"
+          external: false
+        - path: "/equipe/"
+          slug: "equipe"
+          file: "persons/_index.html"
+          external: false
+        - path: "/accessibilite/"
+          slug: "accessibilite"
+          file: "pages/accessibilite/_index.html"
+          external: false
 
 
 
