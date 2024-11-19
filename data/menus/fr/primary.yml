@@ -33,4 +33,8 @@ items:
   target: "/campus/"
   kind: page
   children: []
+- title: Publications
+  target: "/publications/"
+  kind: page
+  children: []
 
