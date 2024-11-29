@@ -5,36 +5,45 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: L'offre de formation
   target: "/offre-de-formation/"
   kind: page
   children: []
+  file: content/fr/programs/_index.html
 - title: Page avec composants
   target: "/page-avec-composants/"
   kind: page
   children: []
+  file: content/fr/pages/page-avec-composants/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
   children: []
+  file: content/fr/persons/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
   children: []
+  file: content/fr/organizations/_index.html
 - title: Diplômes
   target: "/diplomes/"
   kind: page
   children: []
+  file: content/fr/diplomas/_index.html
 - title: Page de test
   target: "/page-de-test/"
   kind: page
   children: []
+  file: content/fr/pages/page-de-test/_index.html
 - title: Campus
   target: "/campus/"
   kind: page
   children: []
+  file: content/fr/locations/_index.html
 - title: Publications
   target: "/publications/"
   kind: page
   children: []
+  file: content/fr/publications/_index.html
 
