@@ -12,6 +12,7 @@ lastmod: 2024-09-29T09:28:25+02:00
 meta:
   hugo:
     permalink: "/page-avec-composants/"
+    path: "/pages/page-avec-composants"
     file: "content/fr/pages/page-avec-composants/_index.html"
     slug: "page-avec-composants"
   dates:
@@ -122,9 +123,19 @@ contents:
         summary: true
 
       posts:
-        - "/actualites/2022-11-28-actu-test/"
-        - "/actualites/2022-11-25-post-de-seb/"
-        - "/actualites/2021-11-09-post-de-test/"
+        - permalink: "/actualites/2022-11-28-actu-test/"
+          path: "/posts/2022/2022-11-28-actu-test"
+          slug: "actu-test"
+          file: "content/fr/posts/2022/2022-11-28-actu-test.html"
+        - permalink: "/actualites/2022-11-25-post-de-seb/"
+          path: "/posts/2022/2022-11-25-post-de-seb"
+          slug: "post-de-seb"
+          file: "content/fr/posts/2022/2022-11-25-post-de-seb.html"
+        - permalink: "/actualites/2021-11-09-post-de-test/"
+          path: "/posts/2021/2021-11-09-post-de-test"
+          slug: "post-de-test"
+          file: "content/fr/posts/2021/2021-11-09-post-de-test.html"
+
 
 
   - kind: block
@@ -267,6 +278,7 @@ contents:
         summary: true
 
       posts:
+
 
 
   - kind: block
@@ -455,11 +467,17 @@ contents:
         link: true
 
       persons:
-        - slug: "pierre-andre-boissinot"
+        - permalink: "/equipe/pierre-andre-boissinot/"
+          path: "/persons/pierre-andre-boissinot"
+          slug: "pierre-andre-boissinot"
+          file: "content/fr/persons/pierre-andre-boissinot.html"
           role: >-
             Un rôle rempli
 
-        - slug: "sebastien-moulene"
+        - permalink: "/equipe/sebastien-moulene/"
+          path: "/persons/sebastien-moulene"
+          slug: "sebastien-moulene"
+          file: "content/fr/persons/sebastien-moulene.html"
           role: >-
             
 
@@ -542,7 +560,10 @@ contents:
         summary: false
 
       organizations:
-        - slug: "organisation-test"
+        - permalink: "/organisations/organisation-test/"
+          path: "/organizations/organisation-test"
+          slug: "organisation-test"
+          file: "content/fr/organizations/organisation-test.html"
         - name: >-
             Mica
 
@@ -573,14 +594,23 @@ contents:
 
       layout: list
       pages:
-        - slug: "equipe-editoriale"
+        - permalink: "/equipe/equipe-editoriale/"
+          path: "/authors"
+          slug: "equipe-editoriale"
           file: "content/fr/authors/_index.html"
-        - slug: "equipe-de-recherche"
+        - permalink: "/equipe/equipe-de-recherche/"
+          path: "/researchers"
+          slug: "equipe-de-recherche"
           file: "content/fr/researchers/_index.html"
-        - slug: "equipe-pedagogique"
+        - permalink: "/equipe/equipe-pedagogique/"
+          path: "/teachers"
+          slug: "equipe-pedagogique"
           file: "content/fr/teachers/_index.html"
-        - slug: "equipe-administrative"
+        - permalink: "/equipe/equipe-administrative/"
+          path: "/administrators"
+          slug: "equipe-administrative"
           file: "content/fr/administrators/_index.html"
+
 
 
   - kind: block
@@ -605,7 +635,11 @@ contents:
         summary: true
 
       posts:
-        - "/actualites/2021-11-09-post-de-test/"
+        - permalink: "/actualites/2021-11-09-post-de-test/"
+          path: "/posts/2021/2021-11-09-post-de-test"
+          slug: "post-de-test"
+          file: "content/fr/posts/2021/2021-11-09-post-de-test.html"
+
 
 
   - kind: block
@@ -628,12 +662,19 @@ contents:
 
       layout: cards
       pages:
-        - slug: "actualites"
+        - permalink: "/actualites/"
+          path: "/posts"
+          slug: "actualites"
           file: "content/fr/posts/_index.html"
-        - slug: "equipe"
+        - permalink: "/equipe/"
+          path: "/persons"
+          slug: "equipe"
           file: "content/fr/persons/_index.html"
-        - slug: "accessibilite"
+        - permalink: "/accessibilite/"
+          path: "/pages/accessibilite"
+          slug: "accessibilite"
           file: "content/fr/pages/accessibilite/_index.html"
+
 
 
 
