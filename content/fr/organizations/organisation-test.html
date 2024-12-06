@@ -8,8 +8,8 @@ aliases:
 meta:
   hugo:
     permalink: "/organisations/organisation-test/"
-    path: "/organizations/organisation-test"
     file: "content/fr/organizations/organisation-test.html"
+    path: "organisation-test"
     slug: "organisation-test"
   dates:
     created_at: 2022-06-20T16:28:05+02:00
@@ -44,10 +44,8 @@ backlinks:
   current_website:
     name: "Site de démo"
     pages:
-      - permalink: "/page-avec-composants/"
-        path: "/pages/page-avec-composants"
-        slug: "page-avec-composants"
-        file: "content/fr/pages/page-avec-composants/_index.html"
+      - path: "/page-avec-composants/"
+        file: "pages/page-avec-composants/_index.html"
     posts:
     events:
     projects:
@@ -62,6 +60,8 @@ kind:
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        
       address: >-
         Rue
       address_additional: >-
@@ -77,42 +77,30 @@ contact_details:
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
+    geolocation:
+      latitude: 
+      longitude: 
     text: >-
       Rue 33000 Bordeaux FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Rue</span> <span itemprop="postalCode">33000</span> <span itemprop="addressLocality">Bordeaux</span> <span itemprop="addressCountry">FRANCE</span></address>
 
-  address:
-    label: "Rue"
-    value: "Rue"
+  phone_numbers:
 
 
-  zipcode:
-    label: "33000"
-    value: "33000"
+  emails:
 
-  city:
-    label: "Bordeaux"
-    value: "Bordeaux"
-
-  country:
-    label: "France"
-    value: "FR"
-
-  website:
-    label: "www.orga.fr"
-    value: "https://www.orga.fr"
+  websites:
+    website:
+      label: >-
+        www.orga.fr
+      value: >-
+        https://www.orga.fr
 
 
+  social_networks:
 
 
-
-
-  geolocation:
-    latitude: 
-    longitude: 
 logo: "94363695-f76b-4f6d-9070-a901059c9f95"
 
 contents_reading_time:

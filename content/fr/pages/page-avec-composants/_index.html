@@ -12,8 +12,8 @@ lastmod: 2024-09-29T09:28:25+02:00
 meta:
   hugo:
     permalink: "/page-avec-composants/"
-    path: "/pages/page-avec-composants"
     file: "content/fr/pages/page-avec-composants/_index.html"
+    path: "page-avec-composants"
     slug: "page-avec-composants"
   dates:
     created_at: 2022-06-20T10:17:30+02:00
@@ -123,19 +123,9 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/actualites/2022-11-28-actu-test/"
-          path: "/posts/2022/2022-11-28-actu-test"
-          slug: "actu-test"
-          file: "content/fr/posts/2022/2022-11-28-actu-test.html"
-        - permalink: "/actualites/2022-11-25-post-de-seb/"
-          path: "/posts/2022/2022-11-25-post-de-seb"
-          slug: "post-de-seb"
-          file: "content/fr/posts/2022/2022-11-25-post-de-seb.html"
-        - permalink: "/actualites/2021-11-09-post-de-test/"
-          path: "/posts/2021/2021-11-09-post-de-test"
-          slug: "post-de-test"
-          file: "content/fr/posts/2021/2021-11-09-post-de-test.html"
-
+        - "2022/2022-11-28-actu-test"
+        - "2022/2022-11-25-post-de-seb"
+        - "2021/2021-11-09-post-de-test"
 
 
   - kind: block
@@ -266,7 +256,7 @@ contents:
       self: 2
     data:
       mode: category
-      category: "offre-de-formation/css"
+      category: "/offre-de-formation-css/"
       layout: grid
       options:
         author: false
@@ -278,7 +268,6 @@ contents:
         summary: true
 
       posts:
-
 
 
   - kind: block
@@ -467,17 +456,11 @@ contents:
         link: true
 
       persons:
-        - permalink: "/equipe/pierre-andre-boissinot/"
-          path: "/persons/pierre-andre-boissinot"
-          slug: "pierre-andre-boissinot"
-          file: "content/fr/persons/pierre-andre-boissinot.html"
+        - slug: "pierre-andre-boissinot"
           role: >-
             Un rôle rempli
 
-        - permalink: "/equipe/sebastien-moulene/"
-          path: "/persons/sebastien-moulene"
-          slug: "sebastien-moulene"
-          file: "content/fr/persons/sebastien-moulene.html"
+        - slug: "sebastien-moulene"
           role: >-
             
 
@@ -560,10 +543,7 @@ contents:
         summary: false
 
       organizations:
-        - permalink: "/organisations/organisation-test/"
-          path: "/organizations/organisation-test"
-          slug: "organisation-test"
-          file: "content/fr/organizations/organisation-test.html"
+        - slug: "organisation-test"
         - name: >-
             Mica
 
@@ -585,8 +565,9 @@ contents:
       children: 3
     data:
       page:
+        path: "/equipe/"
         slug: "equipe"
-        file: "content/fr/persons/_index.html"
+        file: "persons/_index.html"
       options:
         image: true
         main_summary: true
@@ -594,23 +575,22 @@ contents:
 
       layout: list
       pages:
-        - permalink: "/equipe/equipe-editoriale/"
-          path: "/authors"
+        - path: "/equipe/equipe-editoriale/"
           slug: "equipe-editoriale"
-          file: "content/fr/authors/_index.html"
-        - permalink: "/equipe/equipe-de-recherche/"
-          path: "/researchers"
+          file: "authors/_index.html"
+          external: false
+        - path: "/equipe/equipe-de-recherche/"
           slug: "equipe-de-recherche"
-          file: "content/fr/researchers/_index.html"
-        - permalink: "/equipe/equipe-pedagogique/"
-          path: "/teachers"
+          file: "researchers/_index.html"
+          external: false
+        - path: "/equipe/equipe-pedagogique/"
           slug: "equipe-pedagogique"
-          file: "content/fr/teachers/_index.html"
-        - permalink: "/equipe/equipe-administrative/"
-          path: "/administrators"
+          file: "teachers/_index.html"
+          external: false
+        - path: "/equipe/equipe-administrative/"
           slug: "equipe-administrative"
-          file: "content/fr/administrators/_index.html"
-
+          file: "administrators/_index.html"
+          external: false
 
 
   - kind: block
@@ -635,11 +615,7 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/actualites/2021-11-09-post-de-test/"
-          path: "/posts/2021/2021-11-09-post-de-test"
-          slug: "post-de-test"
-          file: "content/fr/posts/2021/2021-11-09-post-de-test.html"
-
+        - "2021/2021-11-09-post-de-test"
 
 
   - kind: block
@@ -653,8 +629,9 @@ contents:
       children: 3
     data:
       page:
+        path: "/"
         slug: ""
-        file: "content/fr/_index.html"
+        file: "_index.html"
       options:
         image: true
         main_summary: true
@@ -662,19 +639,18 @@ contents:
 
       layout: cards
       pages:
-        - permalink: "/actualites/"
-          path: "/posts"
+        - path: "/actualites/"
           slug: "actualites"
-          file: "content/fr/posts/_index.html"
-        - permalink: "/equipe/"
-          path: "/persons"
+          file: "posts/_index.html"
+          external: false
+        - path: "/equipe/"
           slug: "equipe"
-          file: "content/fr/persons/_index.html"
-        - permalink: "/accessibilite/"
-          path: "/pages/accessibilite"
+          file: "persons/_index.html"
+          external: false
+        - path: "/accessibilite/"
           slug: "accessibilite"
-          file: "content/fr/pages/accessibilite/_index.html"
-
+          file: "pages/accessibilite/_index.html"
+          external: false
 
 
 
