@@ -9,15 +9,6 @@ fr:
   params:
     contact_details:
 
-      phone_numbers:
-
-      emails:
-
-      websites:
-
-      social_networks:
-
-
   permalinks:
     locations: /campus/:slug/
     posts: /actualites/:year-:month-:day-:slug/
