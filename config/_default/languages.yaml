@@ -11,6 +11,7 @@ fr:
 
   permalinks:
     locations: /campus/:slug/
+    pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
