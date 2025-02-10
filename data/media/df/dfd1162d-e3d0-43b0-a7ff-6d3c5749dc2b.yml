@@ -5,7 +5,7 @@ width: 3840
 height: 2160
 ratio: 1.7777777777777777
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZDExNjJkLWUzZDAtNDNiMC1hN2ZmLTZkM2M1NzQ5ZGMyYiIsInB1ciI6ImJsb2JfaWQifX0=--345885e533a5ec4757e56e27e35e3cf08356c67b/ios-14-blue-and-pink-abstract-fnkg9z594gq55bfl.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/hxig6b1u8ek6yqsiepzerjpxhfd4
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZDExNjJkLWUzZDAtNDNiMC1hN2ZmLTZkM2M1NzQ5ZGMyYiIsInB1ciI6ImJsb2JfaWQifX0=--345885e533a5ec4757e56e27e35e3cf08356c67b
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZDExNjJkLWUzZDAtNDNiMC1hN2ZmLTZkM2M1NzQ5ZGMyYiIsInB1ciI6ImJsb2JfaWQifX0=--9b8fc4dd916b189d2be8d65f37f050488b5aef2c/ios-14-blue-and-pink-abstract-fnkg9z594gq55bfl.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/hxig6b1u8ek6yqsiepzerjpxhfd4
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZDExNjJkLWUzZDAtNDNiMC1hN2ZmLTZkM2M1NzQ5ZGMyYiIsInB1ciI6ImJsb2JfaWQifX0=--9b8fc4dd916b189d2be8d65f37f050488b5aef2c
 
