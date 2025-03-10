@@ -12,6 +12,9 @@ fr:
 
   permalinks:
     locations: /campus/:slug/
+    events: /agenda/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
+    events_categories: /agenda/:slug/
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
