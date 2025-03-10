@@ -5,7 +5,7 @@ width: 1486
 height: 836
 ratio: 1.777511961722488
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjNiNmFkYTljLTRlMTYtNGFjMi1iMmRmLTRjYTg5MzdmMjdjOSIsInB1ciI6ImJsb2JfaWQifX0=--152207ce4335d01e687203b17011cb3ea67bbfe1/dan-gold.jpeg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/95lndu0af6agw9qqut6502q9eeo1
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjNiNmFkYTljLTRlMTYtNGFjMi1iMmRmLTRjYTg5MzdmMjdjOSIsInB1ciI6ImJsb2JfaWQifX0=--152207ce4335d01e687203b17011cb3ea67bbfe1
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjNiNmFkYTljLTRlMTYtNGFjMi1iMmRmLTRjYTg5MzdmMjdjOSIsInB1ciI6ImJsb2JfaWQifX0=--7c1d1d46d01876d002e825dc06b75da44e88428b/dan-gold.jpeg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/95lndu0af6agw9qqut6502q9eeo1
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjNiNmFkYTljLTRlMTYtNGFjMi1iMmRmLTRjYTg5MzdmMjdjOSIsInB1ciI6ImJsb2JfaWQifX0=--7c1d1d46d01876d002e825dc06b75da44e88428b
 
