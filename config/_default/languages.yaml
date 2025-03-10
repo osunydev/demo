@@ -12,9 +12,6 @@ fr:
 
   permalinks:
     locations: /campus/:slug/
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
@@ -26,6 +23,7 @@ fr:
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
   taxonomies:
