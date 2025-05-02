@@ -99,11 +99,4 @@ items:
   children: []
   path: "/pages/page-test-gitfile-6"
   file: content/fr/pages/page-test-gitfile-6/_index.html
-- title: test 7 gitfile
-  target: "/test-7-gitfile/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test-7-gitfile"
-  file: content/fr/pages/test-7-gitfile/_index.html
 
