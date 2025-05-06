@@ -5,7 +5,7 @@ width: 1080
 height: 1080
 ratio: 1.0
 format: square
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjY5NzE4ZDM2LWYwZmYtNGM4NS05MWY3LTNhNDNjZDViMjMxNSIsInB1ciI6ImJsb2JfaWQifX0=--ea40b311af0e14c6d0f0ed89d091e402a5b2edff/chouette-1080.png
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/xc5t1qk0j6xwzorog3w25vg8r0ml
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjY5NzE4ZDM2LWYwZmYtNGM4NS05MWY3LTNhNDNjZDViMjMxNSIsInB1ciI6ImJsb2JfaWQifX0=--ea40b311af0e14c6d0f0ed89d091e402a5b2edff
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjY5NzE4ZDM2LWYwZmYtNGM4NS05MWY3LTNhNDNjZDViMjMxNSIsInB1ciI6ImJsb2JfaWQifX0=--7a84f10837cd72745972653ea87d30b5f308846d/chouette-1080.png
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/xc5t1qk0j6xwzorog3w25vg8r0ml
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjY5NzE4ZDM2LWYwZmYtNGM4NS05MWY3LTNhNDNjZDViMjMxNSIsInB1ciI6ImJsb2JfaWQifX0=--7a84f10837cd72745972653ea87d30b5f308846d
 

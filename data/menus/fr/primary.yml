@@ -78,32 +78,4 @@ items:
   children: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Page test gitfile
-  target: "/page-test-gitfile/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/page-test-gitfile"
-  file: content/fr/pages/page-test-gitfile/_index.html
-- title: test 4 gitfile
-  target: "/test-4-gitfile/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test-4-gitfile"
-  file: content/fr/pages/test-4-gitfile/_index.html
-- title: Page test gitfile 6
-  target: "/page-test-gitfile-6/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/page-test-gitfile-6"
-  file: content/fr/pages/page-test-gitfile-6/_index.html
-- title: test gitfile 8
-  target: "/test-gitfile-8/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test-gitfile-8"
-  file: content/fr/pages/test-gitfile-8/_index.html
 
