@@ -2,7 +2,7 @@
 
 fr:
   title: >-
-    Démo
+    Site de démo
   contentDir: content/fr
   languageCode: fr
   languageName: Français
@@ -15,11 +15,13 @@ fr:
     events: /agenda/:year/:slug/
     exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    jobs: /agenda/:year/:slug/
+    jobs: /offres-d-emploi/:year/:slug/
     jobs_categories: /offres-d-emploi/:slug/
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    academic_years: /alumni/:year
+    cohorts: /alumni/:year/:program_slug
     diplomas: /diplomes/:slug/
     programs_categories: /offre-de-formation/categories/:slug/
     programs: /offre-de-formation/:slug/
@@ -28,6 +30,7 @@ fr:
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
   taxonomies:
