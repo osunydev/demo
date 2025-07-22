@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Alumni
-  target: "/alumni/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/academic_years"
-  file: content/fr/academic_years/_index.html
 - title: Offres d'emploi
   target: "/offres-d-emploi/"
   kind: page
@@ -64,6 +57,167 @@ items:
   children: []
   path: "/pages/page-de-test"
   file: content/fr/pages/page-de-test/_index.html
+- title: Notre projet
+  target: "/notre-projet/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Présentation de notre projet
+    target: "/notre-projet/presentation-de-notre-projet/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Histoire et héritage
+      target: "/notre-projet/presentation-de-notre-projet/histoire-et-heritage/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Les atouts du projet
+      target: "/notre-projet/presentation-de-notre-projet/les-atouts-du-projet/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Relations avec les entreprises
+      target: "/notre-projet/presentation-de-notre-projet/relations-avec-les-entreprises/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  - title: Ressources
+    target: "/notre-projet/ressources/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Espace et équipements
+      target: "/notre-projet/ressources/espace-et-equipements/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  - title: Informations pratiques
+    target: "/notre-projet/informations-pratiques/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Règles d'usage et de sécurité
+      target: "/notre-projet/informations-pratiques/regles-dusage-et-de-securite/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Plan d’accès et contact
+      target: "/notre-projet/informations-pratiques/plan-dacces-et-contact/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  path: 
+  file: 
+- title: Vie associative
+  target: "/vie-associative/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Le Centre de Ressources Osuny
+    target: "/vie-associative/le-centre-de-ressources-osuny/"
+    kind: page
+    new_tab: false
+    children: []
+    path: 
+    file: 
+  - title: Services numériques
+    target: "/vie-associative/services-numeriques/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Outils pédagogiques
+      target: "/vie-associative/services-numeriques/outils-pedagogiques/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  - title: Le projet au quotidien
+    target: "/vie-associative/le-projet-au-quotidien/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Citoyenneté associative
+      target: "/vie-associative/le-projet-au-quotidien/citoyennete-associative/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Vie bénévole
+      target: "/vie-associative/le-projet-au-quotidien/vie-benevole/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Sport
+      target: "/vie-associative/le-projet-au-quotidien/sport/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Culture
+      target: "/vie-associative/le-projet-au-quotidien/culture/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  - title: Aide et entraide
+    target: "/vie-associative/aide-et-entraide/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Aides sociales
+      target: "/vie-associative/aide-et-entraide/aides-sociales/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Santé et prévention
+      target: "/vie-associative/aide-et-entraide/sante-et-prevention/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    - title: Contacter un Médiateur
+      target: "/vie-associative/aide-et-entraide/contacter-un-mediateur/"
+      kind: page
+      new_tab: false
+      children: []
+      path: 
+      file: 
+    path: 
+    file: 
+  path: 
+  file: 
 - title: Campus
   target: "/campus/"
   kind: page
@@ -92,32 +246,4 @@ items:
   children: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Page test gitfile
-  target: "/page-test-gitfile/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/page-test-gitfile"
-  file: content/fr/pages/page-test-gitfile/_index.html
-- title: test 4 gitfile
-  target: "/test-4-gitfile/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test-4-gitfile"
-  file: content/fr/pages/test-4-gitfile/_index.html
-- title: Page test gitfile 6
-  target: "/page-test-gitfile-6/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/page-test-gitfile-6"
-  file: content/fr/pages/page-test-gitfile-6/_index.html
-- title: test gitfile 8
-  target: "/test-gitfile-8/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test-gitfile-8"
-  file: content/fr/pages/test-gitfile-8/_index.html
 
