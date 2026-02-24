@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Écoles
-  target: "/ecoles/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/schools"
-  file: content/fr/schools/_index.html
 - title: Offres d'emploi
   target: "/offres-d-emploi/"
   kind: page
@@ -15,6 +8,13 @@ items:
   children: []
   path: "/jobs"
   file: content/fr/jobs/_index.html
+- title: Écoles
+  target: "/ecoles/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/schools"
+  file: content/fr/schools/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
