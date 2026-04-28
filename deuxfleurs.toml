@@ -13,3 +13,176 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot-1/papers/index.html"
+to = "/equipe/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/accueil/equipe/olivia-simonet/actualites/index.html"
+to = "/equipe/olivia-simonet/actualites/"
+
+[[redirects]]
+from = "/accueil/politique-de-confidentialite/index.html"
+to = "/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/accueil/page-de-test/index.html"
+to = "/page-de-test/"
+
+[[redirects]]
+from = "/accueil/plan-du-site/index.html"
+to = "/plan-du-site/"
+
+[[redirects]]
+from = "/accueil/actualites/offre-de-formation/index.html"
+to = "/actualites/offre-de-formation/"
+
+[[redirects]]
+from = "/accueil/offre-de-formation/ruby-on-rails/index.html"
+to = "/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot-1/actualites/index.html"
+to = "/equipe/pierre-andre-boissinot-1/actualites/"
+
+[[redirects]]
+from = "/actualites/2022/11/28/actu-test/index.html"
+to = "/actualites/2022-11-28-actu-test/"
+
+[[redirects]]
+from = "/accueil/diplomes/index.html"
+to = "/diplomes/"
+
+[[redirects]]
+from = "/accueil/equipe/sebastien-moulene/index.html"
+to = "/equipe/sebastien-moulene/"
+
+[[redirects]]
+from = "/accueil/organisations/index.html"
+to = "/organisations/"
+
+[[redirects]]
+from = "/accueil/actualites/2022-11-28-actu-test/index.html"
+to = "/actualites/2022-11-28-actu-test/"
+
+[[redirects]]
+from = "/actualites/2022/11/25/post-de-seb/index.html"
+to = "/actualites/2022-11-25-post-de-seb/"
+
+[[redirects]]
+from = "/accueil/equipe/equipe-de-recherche/index.html"
+to = "/equipe/equipe-de-recherche/"
+
+[[redirects]]
+from = "/accueil/actualites/2022-11-25-post-de-seb/index.html"
+to = "/actualites/2022-11-25-post-de-seb/"
+
+[[redirects]]
+from = "/accueil/actualites/offre-de-formation/ruby-on-rails/index.html"
+to = "/actualites/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/accueil/actualites/2021-11-09-post-de-test/index.html"
+to = "/actualites/2021-11-09-post-de-test/"
+
+[[redirects]]
+from = "/accueil/diplomes/plome/index.html"
+to = "/diplomes/plome/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot-1/papers/index.html"
+to = "/equipe/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/accueil/equipe/equipe-editoriale/index.html"
+to = "/equipe/equipe-editoriale/"
+
+[[redirects]]
+from = "/accueil/index.html"
+to = "/"
+
+[[redirects]]
+from = "/accueil/actualites/index.html"
+to = "/actualites/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot-1/programs/index.html"
+to = "/equipe/pierre-andre-boissinot-1/programs/"
+
+[[redirects]]
+from = "/accueil/equipe/equipe-pedagogique/index.html"
+to = "/equipe/equipe-pedagogique/"
+
+[[redirects]]
+from = "/accueil/actualites/offre-de-formation/css/index.html"
+to = "/actualites/offre-de-formation/css/"
+
+[[redirects]]
+from = "/accueil/equipe/sebastien-gaya/index.html"
+to = "/equipe/sebastien-gaya/"
+
+[[redirects]]
+from = "/accueil/campus/index.html"
+to = "/campus/"
+
+[[redirects]]
+from = "/agenda/2025/evenement-federe/index.html"
+to = "/agenda/2024/evenement-federe/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot-1/publications/index.html"
+to = "/equipe/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/accueil/offre-de-formation/index.html"
+to = "/offre-de-formation/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot/index.html"
+to = "/equipe/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/accueil/organisations/organisation-test/index.html"
+to = "/organisations/organisation-test/"
+
+[[redirects]]
+from = "/accueil/equipe/index.html"
+to = "/equipe/"
+
+[[redirects]]
+from = "/accueil/offre-de-formation/css/index.html"
+to = "/offre-de-formation/css/"
+
+[[redirects]]
+from = "/accueil/mentions-legales/index.html"
+to = "/mentions-legales/"
+
+[[redirects]]
+from = "/actualites/2021/11/09/post-de-test/index.html"
+to = "/actualites/2021-11-09-post-de-test/"
+
+[[redirects]]
+from = "/accueil/equipe/equipe-administrative/index.html"
+to = "/equipe/equipe-administrative/"
+
+[[redirects]]
+from = "/accueil/equipe/pierre-andre-boissinot-1/index.html"
+to = "/equipe/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/accueil/equipe/sebastien-gaya/actualites/index.html"
+to = "/equipe/sebastien-gaya/actualites/"
+
+[[redirects]]
+from = "/accueil/accessibilite/index.html"
+to = "/accessibilite/"
+
+[[redirects]]
+from = "/accueil/page-avec-composants/index.html"
+to = "/page-avec-composants/"
+
+[[redirects]]
+from = "/accueil/equipe/olivia-simonet/index.html"
+to = "/equipe/olivia-simonet/"
+
